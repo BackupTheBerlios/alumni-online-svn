@@ -1,0 +1,24 @@
+<error>
+	<time>12:58:35</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined variable:  skin</message>
+	<script>controls\customControls\poll\poll.php</script>
+	<line>70</line>
+</error>
+<error>
+	<time>14:06:49</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  question</message>
+	<script>skins\templates_c\%%-17^%%-1796550286^poll.html.php</script>
+	<line>5</line>
+</error>
+<error>
+	<time>14:08:48</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  question</message>
+	<script>skins\templates_c\%%-17^%%-1796550286^poll.html.php</script>
+	<line>5</line>
+</error>

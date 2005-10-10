@@ -1,0 +1,5 @@
+<form action="index.php?DeleteModule:{$controlVariables.deleteModule.moduleID}" method="post" name="deleteModuleForm" id="deleteModuleForm">
+	<p>Do you really want to delete module '{$controlVariables.deleteModule.moduleTitle}'?</p>
+    <input name="delete" type="submit" id="delete" value="Yes, delete" class='NormalTextBox'>
+  <input name="event" type="hidden" id="event" value="deleteModule">
+</form>

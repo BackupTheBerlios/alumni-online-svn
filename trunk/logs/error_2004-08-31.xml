@@ -1,0 +1,90 @@
+<error>
+	<time>09:44:19</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1064: You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near '-FROM ao_users WHERE username='admin'' at line 1] in EXECUTE("SELECT * -FROM ao_users WHERE username='admin'")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>09:44:19</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to get settings
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near '-FROM ao_users WHERE username='admin'' at line 1</message>
+	<script>controls\controls.Main.php</script>
+	<line>138</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>opendir(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www): failed to open dir: Invalid argument</message>
+	<script>controls\controls.Main.php</script>
+	<line>400</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>opendir(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default): failed to open dir: Invalid argument</message>
+	<script>controls\controls.Main.php</script>
+	<line>414</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>opendir(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www): failed to open dir: Invalid argument</message>
+	<script>controls\controls.Main.php</script>
+	<line>400</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>opendir(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default): failed to open dir: Invalid argument</message>
+	<script>controls\controls.Main.php</script>
+	<line>414</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>filemtime(): Stat failed for F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default\index.html (errno=2 - No such file or directory)</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1558</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>512</errornum>
+	<type>User Warning</type>
+	<message>Smarty error: unable to read resource: "F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default\index.html"</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1102</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>fopen(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default\index.html): failed to open stream: No such file or directory</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1728</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>filemtime(): Stat failed for F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default\index.html (errno=2 - No such file or directory)</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1558</line>
+</error>
+<error>
+	<time>10:11:25</time>
+	<errornum>512</errornum>
+	<type>User Warning</type>
+	<message>Smarty error: unable to read resource: "F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\www\templates\skins\default\index.html"</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1102</line>
+</error>

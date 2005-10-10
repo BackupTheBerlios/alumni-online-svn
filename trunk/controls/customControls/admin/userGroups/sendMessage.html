@@ -1,0 +1,38 @@
+<form name="sendMessageForm" method="post" action="index.php?DisplayModule:{$controlVariables.sendMessage.moduleId}:message2Groups">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+{if $controlVariables.sendMessage.errorInfo!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.sendMessage.errorInfo}</td>
+    </tr>
+{/if}
+{if $controlVariables.sendMessage.succeed!=""}
+    <tr class='Info'>
+      <td colspan='2'>Mail has been send!</td>
+    </tr>
+{/if}
+  <tr>
+    <td valign="top" width="100px">Groups</td>
+    <td><select name="groups[]" size="1" multiple id="groups[]" style="width:300px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.sendMessage.groupList}		
+      <option value='{$item.user_group_id}'>{$item.name} ({$item.user_count} users)</option> 
+{/foreach} 	  
+    </select></td>
+  </tr>
+  <tr>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Subject</td>
+    <td><input name="subject" type="text" id="subject" style="width:300px;" class="NormalTextBox"></td>
+  </tr>  
+  <tr>
+    <td valign="top">Message</td>
+    <td><textarea name="content" cols="90" rows="15" id="content" style="width:300px; height:150px;"></textarea></td>
+  </tr>
+   <tr>
+    <td colspan="2"><input type="submit" name="Submit" value="Send" class="CommandButton"></td>
+  </tr>
+</table>
+<input name='event' type='hidden' id='event' value='sendMessage'>
+</form>
+ 

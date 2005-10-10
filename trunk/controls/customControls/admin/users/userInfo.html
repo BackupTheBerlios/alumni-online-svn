@@ -1,0 +1,67 @@
+<form name="addUserForm" method="post" action="index.php?UserInfo:{$controlVariables.userInfo.username}"> 
+  <table width="100%"  border="0" cellspacing="1" cellpadding="0">
+    <tr> 
+      <td width="13%">Username</td> 
+      <td width="87%">{$controlVariables.userInfo.username}</td> 
+    </tr>
+	<tr> 
+      <td>Name</td> 
+      <td><input name="name" type="text" maxlength="50" value="{$controlVariables.userInfo.name}"></td> 
+    </tr>
+    <tr> 
+      <td>Surname</td> 
+      <td><input name="surname" type="text" maxlength="50" value="{$controlVariables.userInfo.surname}"></td> 
+    </tr>
+	<tr> 
+      <td>Password</td> 
+      <td><input name="passwd" type="password" maxlength="50" value=""></td> 
+    </tr>
+	<tr> 
+      <td>Email</td> 
+      <td><input name="email" type="text" maxlength="50" value="{$controlVariables.userInfo.email}"></td> 
+    </tr>
+	<tr> 
+      <td>User Group</td> 
+      <td><select name="group" id="group">
+	{foreach key=key item=item  from=$controlVariables.userInfo.groupList}		  
+		  <option value='{$key}'{if $controlVariables.userInfo.group==$key} selected{/if}>{$item}</option> 
+	{/foreach}		
+      </select></td>
+	</tr>
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>	
+	<tr> 
+      <td>Icq</td> 
+      <td><input name="icq" type="text" maxlength="50" value="{$controlVariables.userInfo.icq}"></td> 
+    </tr>
+	<tr> 
+      <td>Msn</td> 
+      <td><input name="msn" type="text" maxlength="50" value="{$controlVariables.userInfo.msn}"></td> 
+    </tr>
+	<tr> 
+      <td>Yahoo!</td> 
+      <td><input name="yahoo" type="text" maxlength="50" value="{$controlVariables.userInfo.yahoo}"></td> 
+    </tr> 
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>	
+	<tr> 
+      <td>Is Active?</td> 
+      <td><input name="isActive" type="checkbox" id="isActive" value="1"{if $controlVariables.userInfo.isActive} checked{/if}></td>
+	</tr>
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>	
+	<tr>
+      <td colspan='2'><a href="index.php?SendMessage:{$controlVariables.userInfo.username}">Send a message to this user</a></td>
+    </tr>
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>
+	<tr>
+      <td colspan='2'><input type='submit' name='Submit' value='Update' class='button'></td>
+    </tr>
+  </table> 
+  <input name='event' type='hidden' id='event' value='userInfo'>
+</form>

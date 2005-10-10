@@ -1,0 +1,41 @@
+<error>
+	<time>22:04:45</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>file(D:\rss2_projsummary.xml): failed to open stream: Permission denied</message>
+	<script>controls\customControls\rss\rssFeed.php</script>
+	<line>52</line>
+</error>
+<error>
+	<time>22:04:45</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>implode(): Bad arguments.</message>
+	<script>controls\customControls\rss\rssFeed.php</script>
+	<line>52</line>
+</error>
+<error>
+	<time>22:05:16</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>file(D:\rss2_projsummary.xml): failed to open stream: Permission denied</message>
+	<script>controls\customControls\rss\rssFeed.php</script>
+	<line>52</line>
+</error>
+<error>
+	<time>22:05:16</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>implode(): Bad arguments.</message>
+	<script>controls\customControls\rss\rssFeed.php</script>
+	<line>52</line>
+</error>
+<error>
+	<time>23:05:30</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to get settings
+reason is : Table 'alumni_online.ao_module_special' doesn't exist</message>
+	<script>controls\controls.Main.php</script>
+	<line>315</line>
+</error>

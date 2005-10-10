@@ -1,0 +1,23 @@
+<form name="addGroupForm" method="post" action="index.php?DisplayModule:{$controlVariables.addGroup.moduleId}:addGroup">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+{if $controlVariables.addGroup.error!=""}
+  <tr class="Error">
+    <td colspan="2">{$controlVariables.addGroup.error}</td>
+  </tr>
+{/if}
+{if $controlVariables.addGroup.message!=""}
+  <tr class="Info">
+    <td colspan="2">{$controlVariables.addGroup.message}</td>
+  </tr>
+{/if} 
+  <tr>
+    <td width="15%">Group name </td>
+    <td width="85%"><input name="group" type="text" id="group"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" name="Submit" value="Add"></td>
+  </tr>
+</table>
+<input name="event" type="hidden" id="event" value="addGroup">
+</form>
+ 

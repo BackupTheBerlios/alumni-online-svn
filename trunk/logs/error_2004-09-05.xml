@@ -1,0 +1,143 @@
+<error>
+	<time>17:05:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  databaseTablePrefix</message>
+	<script>controls\controls.Event.php</script>
+	<line>56</line>
+</error>
+<error>
+	<time>17:05:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  databaseTablePrefix</message>
+	<script>controls\controls.Event.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>17:25:27</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Missing argument 1 for event()</message>
+	<script>controls\controls.Event.php</script>
+	<line>33</line>
+</error>
+<error>
+	<time>17:25:32</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Missing argument 1 for event()</message>
+	<script>controls\controls.Event.php</script>
+	<line>33</line>
+</error>
+<error>
+	<time>17:25:37</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Missing argument 1 for event()</message>
+	<script>controls\controls.Event.php</script>
+	<line>33</line>
+</error>
+<error>
+	<time>18:16:50</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1064: You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near 'ao_users WHERE username = 'admin'' at line 1] in EXECUTE("SELECT * ao_users WHERE username = 'admin'")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>18:28:28</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  Affected_Rows</message>
+	<script>controls\customControls\admin\users\userInfo.php</script>
+	<line>81</line>
+</error>
+<error>
+	<time>18:28:28</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>18:29:09</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>18:40:11</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  skin</message>
+	<script>controls\customControls\admin\modules\addModule.php</script>
+	<line>138</line>
+</error>
+<error>
+	<time>19:12:41</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined offset:  0</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>563</line>
+</error>
+<error>
+	<time>19:12:41</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>19:12:51</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>19:13:40</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>19:13:51</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1065: Query was empty] in EXECUTE("")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>22:24:53</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>fireevent(eventControls\): failed to open stream: Permission denied</message>
+	<script>controls\controls.Event.php</script>
+	<line>49</line>
+</error>
+<error>
+	<time>22:25:03</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>fireevent(eventControls\): failed to open stream: Permission denied</message>
+	<script>controls\controls.Event.php</script>
+	<line>49</line>
+</error>

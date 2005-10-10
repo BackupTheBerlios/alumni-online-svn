@@ -1,0 +1,140 @@
+<form name="editModuleForm" method="post" action="index.php?EditModule:{$controlVariables.editModule.moduleId}"> 
+  <table cellSpacing="0" cellPadding="0" width="750" border="0"> 
+{if $controlVariables.editModule.titleError}
+    <tr> 
+      <td valign='top' colspan='4' class='Error'>Please enter title!</td> 
+    </tr>
+{/if}    
+    <tr> 
+      <td class="SubHead" width="200">Title:</td> 
+      <td colspan="3"><input name="title" type="text" value="{$controlVariables.editModule.moduleInfo.module_title}" id="title" class="NormalTextBox" style="width:300px;" /></td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" noWrap width="200">Icon:</td> 
+      <td colspan="3"><select name="icon" id="icon" class="NormalTextBox" style="width:300px;"> 
+          <option value="">&lt;None Specified&gt;</option>
+  	{foreach key=key item=item  from=$controlVariables.editModule.iconList}
+          <option value='{$key}'>{$item}</option>
+	{/foreach}         
+        </select></td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp; </td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" noWrap width="200">Display Module Title?:</td> 
+      <td colspan="3"><input id="showTitle" type="checkbox" name="showTitle"{if $controlVariables.editModule.moduleInfo.can_show_title} checked{/if}/></td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" noWrap width="200">Display Module On All Tabs?:</td> 
+      <td colspan="3"><input id="allTabs" type="checkbox" name="allTabs"{if $controlVariables.editModule.moduleInfo.display_all_tabs} checked{/if}/></td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp; </td> 
+    </tr> 
+{if $controlVariables.editModule.viewRolesError}
+    <tr> 
+      <td valign='top' colspan='4' class='Error'>Please assign at least one group with view right!</td> 
+    </tr>
+{/if}	
+	<tr  class="SubHead"> 
+      <td>&nbsp;</td> 
+	  <td align="center">Avaliable roles</td> 
+	  <td>&nbsp;</td> 
+	  <td>&nbsp;&nbsp;&nbsp;&nbsp;Assigned Roles</td> 
+    </tr>	
+    <tr> 
+      <td width="200" rowspan="2" valign="top" class="SubHead">Roles that can View Content:<br> 
+        ( Overrides Tab Authorized Roles ) </td> 
+      <td width="98" rowspan="2"><select name="notViewUsers" size="5" id="notViewUsers"  style="width:150px; height:150px;"> 
+{foreach key=key item=item  from=$controlVariables.editModule.notViewUsers}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+        </select></td> 
+      <td width="32" height="40" align="center" valign="middle"><a href="JavaScript:addIt('notViewUsers', 'viewUsers', 'viewUsersList');"><img src="templates/skins/{$controlVariables.editModule.theme}/images/arrowRight.gif" width="16" height="16" border="0"></a></td> 
+      <td width="420" rowspan="2"><select name="viewUsers" size="5" id="viewUsers"  style="width:150px; height:150px;">
+	  {foreach key=key item=item  from=$controlVariables.editModule.viewUsers}	        
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+	  </select></td> 
+    </tr> 
+    <tr> 
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notViewUsers', 'viewUsers', 'viewUsersList');"><img src="templates/skins/{$controlVariables.editModule.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp; </td> 
+    </tr>
+{if $controlVariables.editModule.editRolesError}
+    <tr> 
+      <td valign='top' colspan='4' class='Error'>Please assign at least one group with edit right!</td> 
+    </tr>
+{/if}		
+	<tr  class="SubHead"> 
+      <td>&nbsp;</td> 
+	  <td align="center">Avaliable roles</td> 
+	  <td>&nbsp;</td> 
+	  <td>&nbsp;&nbsp;Assigned Roles</td> 
+    </tr>	
+    <tr> 
+      <td width="200" rowspan="2" valign="top" class="SubHead">Roles that can Edit Content: </td> 
+      <td rowspan="2"><select name="notEditUsers" size="5" id="notEditUsers"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editModule.notEditUsers}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td> 
+      <td height="40" align="center" valign="middle"><a href="JavaScript:addIt('notEditUsers', 'editUsers', 'editUsersList');"><img src="templates/skins/{$controlVariables.editModule.theme}/images/arrowRight.gif" width="16" height="16" border="0"></a></td>
+      <td rowspan="2"><select name="editUsers" size="5" id="editUsers"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editModule.editUsers}        
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+            </select></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notEditUsers', 'editUsers', 'editUsersList');"><img src="templates/skins/{$controlVariables.editModule.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td>
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp; </td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp; </td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" width="200">Module Container:{$controlVariables.editModule.moduleContainer}</td> 
+      <td colspan="3" valign="top"><select name="skin" id="skin" class="NormalTextBox" style="width:300px;"> 
+          <option value=""{if $controlVariables.editModule.moduleContainer==""} selected{/if}>&lt;Not Specified&gt;</option>            
+  	{foreach key=key item=item  from=$controlVariables.editModule.containerList}		  		   
+          <option{if $controlVariables.editModule.moduleContainer==$item} selected{/if}>{$item}</option>            
+	{/foreach}		         
+        </select> </td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" width="200">Alignment:</td> 
+      <td colspan="3" valign="top"> <select name="align" id="align" class="NormalTextBox" style="width:300px;"> 
+          <option value=""{if $controlVariables.editModule.moduleInfo.alignment==""} selected{/if}></option> 
+          <option value="left"{if $controlVariables.editModule.moduleInfo.alignment=="left"} selected{/if}>Left</option> 
+          <option value="center"{if $controlVariables.editModule.moduleInfo.alignment=="center"} selected{/if}>Center</option> 
+          <option value="right"{if $controlVariables.editModule.moduleInfo.alignment=="right"} selected{/if}>Right</option> 
+        </select> </td> 
+    </tr> 
+    <tr> 
+      <td class="SubHead" width="200">Panel:</td> 
+      <td colspan="3" valign="top"> <select name="panel" id="panel" class="NormalTextBox" style="width:300px;"> 
+          <option value="leftPane"{if $controlVariables.editModule.moduleInfo.pane_name=="leftPane"} selected{/if}>Left Pane</option> 
+          <option value="contentPane"{if $controlVariables.editModule.moduleInfo.pane_name=="contentPane"} selected{/if}>Content Pane</option> 
+          <option value="rightPane"{if $controlVariables.editModule.moduleInfo.pane_name=="rightPane"} selected{/if}>Right Pane</option> 
+        </select> </td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4">&nbsp;</td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4"> <input name="ok" type="submit" id="ok" value="Ok"> </td> 
+    </tr> 
+    <tr> 
+      <td colSpan="4"></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='editModule'> 
+  <input type='hidden' id='editUsersList' name='editUsersList' value="{foreach name=editUsersLoop key=key item=item  from=$controlVariables.editModule.editUsers}{$item.user_group_id}{if not $smarty.foreach.editUsersLoop.last},{/if}{/foreach}">
+  <input name='viewUsersList' type='hidden' id='viewUsersList' value="{foreach name=viewUsersLoop key=key item=item  from=$controlVariables.editModule.viewUsers}{$item.user_group_id}{if not $smarty.foreach.viewUsersLoop.last},{/if}{/foreach}">
+</form>

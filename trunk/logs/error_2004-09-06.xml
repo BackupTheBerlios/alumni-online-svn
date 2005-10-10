@@ -1,0 +1,361 @@
+<error>
+	<time>18:15:52</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>fopen(F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\controls\customControls\faq\faq.html): failed to open stream: No such file or directory</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1728</line>
+</error>
+<error>
+	<time>18:15:52</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>filemtime(): Stat failed for F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\controls\customControls\faq\faq.html (errno=2 - No such file or directory)</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1558</line>
+</error>
+<error>
+	<time>18:15:52</time>
+	<errornum>512</errornum>
+	<type>User Warning</type>
+	<message>Smarty error: unable to read resource: "F:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source Files\controls\customControls\faq\faq.html"</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>1102</line>
+</error>
+<error>
+	<time>19:32:38</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  siteSettings</message>
+	<script>skins\templates_c\%%188^%%1887814792^faqEdit.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>19:35:34</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  siteSettings</message>
+	<script>skins\templates_c\%%188^%%1887814792^faqEdit.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>19:42:58</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1146: Table 'alumnionline.ao_faq' doesn't exist] in EXECUTE("INSERT INTO ao_faq (module_id, question, answer) VALUES (42, 'fdsf ds', 'f sdfds fsd fsd')")
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>76</line>
+</error>
+<error>
+	<time>22:40:05</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:40:05</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:40:05</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:46:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:46:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:46:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:46:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:46:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:47:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:47:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:47:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:47:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:47:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:48:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:48:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:48:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:48:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:48:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:49:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:49:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:49:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:49:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:49:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:49:15</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:49:15</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:49:15</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:49:15</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:49:15</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>6</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>11</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>18</line>
+</error>
+<error>
+	<time>22:50:20</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  faqEditAnswer</message>
+	<script>skins\templates_c\%%390^%%39082562^faqEditAnswer.html.php</script>
+	<line>23</line>
+</error>
+<error>
+	<time>22:50:32</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>22:52:49</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>22:52:59</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>22:53:21</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>22:56:02</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Module id to edit is not supplied!</message>
+	<script>controls\customControls\faq\faqEditAnswer.php</script>
+	<line>64</line>
+</error>

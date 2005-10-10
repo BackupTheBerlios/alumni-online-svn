@@ -1,0 +1,708 @@
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_connect(): Can't connect to MySQL server on 'localhost' (10061)</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>340</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [2003: Can't connect to MySQL server on 'localhost' (10061)] in CONNECT(localhost, '****', '****', alumnionline)
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  SCRIPT_NAME</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>574</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  title</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  showVersion</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:06</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:13</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): open(/tmp\sess_cd0c2e051cb710256b2762625c02dfc0, O_RDWR) failed: No such file or directory (2)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:10:13</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_connect(): Can't connect to MySQL server on 'localhost' (10061)</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>340</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [2003: Can't connect to MySQL server on 'localhost' (10061)] in CONNECT(localhost, '****', '****', alumnionline)
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  SCRIPT_NAME</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>574</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  title</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  showVersion</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:31</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:40</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): open(/tmp\sess_62a17e899dcf04766029689dd19b1ae6, O_RDWR) failed: No such file or directory (2)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:10:40</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_connect(): Can't connect to MySQL server on 'localhost' (10061)</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>340</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [2003: Can't connect to MySQL server on 'localhost' (10061)] in CONNECT(localhost, '****', '****', alumnionline)
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  SCRIPT_NAME</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>574</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  title</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  showVersion</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:48</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): open(/tmp\sess_6f2755f218f482cd9917fa5d79fd15a1, O_RDWR) failed: No such file or directory (2)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:10:49</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_connect(): Can't connect to MySQL server on 'localhost' (10061)</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>340</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [2003: Can't connect to MySQL server on 'localhost' (10061)] in CONNECT(localhost, '****', '****', alumnionline)
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  SCRIPT_NAME</message>
+	<script>contrib\smarty\Smarty.class.php</script>
+	<line>574</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  title</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  showVersion</message>
+	<script>skins\templates_c\%%-13^%%-1388908870^siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:18</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:19</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>20:11:27</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): open(/tmp\sess_10b694dbd497cc4e36cba7dcf9ff8276, O_RDWR) failed: No such file or directory (2)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>
+<error>
+	<time>20:11:27</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp)</message>
+	<script>Unknown</script>
+	<line>0</line>
+</error>

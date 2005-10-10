@@ -1,0 +1,23 @@
+<form name="form1" method="post" action="index.php?DisplayModule:{$controlVariables.pollEditAnswers.moduleId}:editPollAnswers">
+  <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+    <tr  class="tableHeader">
+      <td colspan="2">Answers</td>
+	 </tr>
+{foreach key=key item=item  from=$controlVariables.pollEditAnswers.answers}
+	 <tr class="{cycle values="tableEvenRow,tableOddRow"}">
+      <td width="7%" align="right"><input name="answer[]" type="checkbox" id="answer" value="{$item.poll_answers_id}"></td>
+	  <td width="93%">{$item.value}</td>
+	 </tr>
+{/foreach}	 
+	 <tr>
+      <td colspan="2">&nbsp;</td>
+    </tr>
+    <tr class="tableHeader">
+      <td  colspan="2">(mark an answer to delete)</td>
+    </tr>
+    <tr>
+      <td  colspan="2"><input type="submit" name="Submit" value="Delete" class="button"></td>
+    </tr>
+	</table>
+	<input name='event' type='hidden' id='event' value='pollEditAnswers_{$controlVariables.pollEditAnswers.moduleId}'>
+</form>

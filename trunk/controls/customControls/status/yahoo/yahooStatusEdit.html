@@ -1,0 +1,17 @@
+<form name='yahooStatusEditForm' method='post' action='index.php?DisplayModule:{$controlVariables.yahooStatusEdit.moduleId}:editYahooStatus'> 
+  <table width='100%'  border='0' cellspacing='0' cellpadding='0'>
+  {if $controlVariables.yahooStatusEdit.updateMessage!=""}
+    <tr class='Info'> 
+      <td>{$controlVariables.yahooStatusEdit.updateMessage}</td> 
+    </tr> 
+    {/if} 
+    <tr> 
+      <td>Please enter Yahoo! id below to display status : </td> 
+    </tr> 
+    <tr> 
+      <td><input name="yahooID" type="text" id="yahooID"{if $controlVariables.yahooStatusEdit.yahooID!=""} value="{$controlVariables.yahooStatusEdit.yahooID}"{/if}> 
+        <input name="ok" type="submit" id="ok" value="Ok"> </td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='yahooStatusEdit'>
+</form>

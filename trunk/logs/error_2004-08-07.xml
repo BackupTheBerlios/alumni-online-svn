@@ -1,0 +1,136 @@
+<error>
+	<time>21:03:53</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Invalis log file name supplied : '2004-07-31_'</message>
+	<script>controls\customControls\admin\exceptionViewer.php</script>
+	<line>113</line>
+</error>
+<error>
+	<time>21:04:45</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Invalid log file name supplied : '2004-08-/'</message>
+	<script>controls\customControls\admin\exceptionViewer.php</script>
+	<line>113</line>
+</error>
+<error>
+	<time>21:06:43</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to find log file : 'D:\BackUp\My Documents\My Projects\enterprisecoding.com\Alumni-Online\Source\logs\error_2004-08-88.xml'</message>
+	<script>controls\customControls\admin\exceptionViewer.php</script>
+	<line>115</line>
+</error>
+<error>
+	<time>21:07:37</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to find log file : 'error_2004-08-88.xml'</message>
+	<script>controls\customControls\admin\exceptionViewer.php</script>
+	<line>115</line>
+</error>
+<error>
+	<time>21:39:01</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:39:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:43:38</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:45:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:45:57</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:46:10</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:49:46</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>21:55:14</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  rss</message>
+	<script>skins\templates_c\%%-19^%%-1965531223^rss.html.php</script>
+	<line>4</line>
+</error>
+<error>
+	<time>22:18:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined variable:  allItems</message>
+	<script>controls\customControls\rss\rssFeed.php</script>
+	<line>56</line>
+</error>
+<error>
+	<time>22:32:22</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  ITEMS</message>
+	<script>contrib\class.RSS.php</script>
+	<line>120</line>
+</error>
+<error>
+	<time>22:32:23</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  ITEMS</message>
+	<script>contrib\class.RSS.php</script>
+	<line>128</line>
+</error>
+<error>
+	<time>22:43:22</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  ITEMS</message>
+	<script>contrib\class.RSS.php</script>
+	<line>120</line>
+</error>
+<error>
+	<time>22:43:25</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  ITEMS</message>
+	<script>contrib\class.RSS.php</script>
+	<line>128</line>
+</error>

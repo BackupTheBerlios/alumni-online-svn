@@ -1,0 +1,107 @@
+<form name='newTabForm' method='post' action='index.php?EditTab:{$controlVariables.editTab.tabInfo.tab_id}'> 
+  <table width='100%'  border='0' cellspacing='0' cellpadding='0'> 
+  {if $controlVariables.editTab.tabnameError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please enter tabname!</td> 
+    </tr>
+{/if}
+    <tr> 
+      <td width='19%'>Tab Name</td> 
+      <td colspan="3"><input name='tabname' type='text' class='TextField' id='tabname' value="{$controlVariables.editTab.tabInfo.tab_name}" size='48'></td> 
+    <tr> 
+      <td valign='top' colspane='2'>&nbsp;</td> 
+    </tr> 
+{if $controlVariables.editTab.titleError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please enter title!</td> 
+    </tr>
+{/if}	
+    <tr> 
+      <td width='19%'>Title</td> 
+      <td colspan="3"><input name='title' type='text' id='title' size='48' class='TextField' value="{$controlVariables.editTab.tabInfo.title}"></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Description</td> 
+      <td colspan="3"><textarea name='description' cols='46' rows='3' id='description'>{$controlVariables.editTab.tabInfo.description}</textarea></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Keywords</td> 
+      <td colspan="3"><textarea name='keywords' cols='46' rows='3' id='keywords'>{$controlVariables.editTab.tabInfo.keywords}</textarea></td> 
+    </tr> 
+    <tr> 
+      <td valign='top' colspane='2'>&nbsp;</td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Parent tab</td> 
+      <td colspan="3"><select name='parenttab' id='parenttab'> 
+          <option value='0'>&lt;Not Specified&gt;</option>
+	{foreach key=key item=item  from=$controlVariables.editTab.tabList}		  
+		  <option value='{$key}'>{$item}</option> 
+	{/foreach}		  
+        </select></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Hidden</td> 
+      <td colspan="3"><input name='ishidden' type='checkbox' id='ishidden' {if not $controlVariables.editTab.tabInfo.is_visible}checked{/if}></td> 
+    </tr> 
+    <tr> 
+      <td valign='top' colspane='2'>&nbsp;</td> 
+    </tr> 
+{if $controlVariables.editTab.editRolesError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please assign at leat one group with edit right!</td> 
+    </tr>
+{/if}		
+    <tr> 
+      <td rowspan="2" valign='top'><span class="SubHead">Roles that can Edit Content: </span></td> 
+      <td width="21%" rowspan="2"><select name="notEditUsers" size="5" id="notEditUsers" style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editTab.notEditUsers}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td> 
+      <td width="4%" height="71" align="center" valign="middle"><a href="JavaScript:addIt('notEditUsers', 'editUsers[]', 'editUsersList');"><img src="templates/skins/{$controlVariables.editTab.theme}/images/arrowRight.gif" width="16" height="16" border="0"></td>
+      <td width="56%" rowspan="2"><select name="editUsers[]" size="5" id="editUsers[]"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editTab.editUsers}        
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notEditUsers', 'editUsers[]', 'editUsersList');"><img src="templates/skins/{$controlVariables.editTab.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td>
+    </tr> 
+    <tr> 
+      <td valign='top' colspane='2'>&nbsp;</td> 
+    </tr> 
+{if $controlVariables.editTab.viewRolesError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please assign at leat one group with view right!</td> 
+    </tr>
+{/if}			
+    <tr> 
+      <td rowspan="2" valign='top'><span class="SubHead">Roles that can View Content:</span></td> 
+      <td rowspan="2"><select name="notViewUsers" size="5" id="notViewUsers"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editTab.notViewUsers}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td> 
+      <td height="68" align="center" valign="middle"><a href="JavaScript:addIt('notViewUsers', 'viewUsers[]', 'viewUsersList');"><img src="templates/skins/{$controlVariables.editTab.theme}/images/arrowRight.gif" width="16" height="16" border="0"></a></td>
+      <td rowspan="2"><select name="viewUsers[]" size="5" id="viewUsers[]"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.editTab.viewUsers}	        
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notViewUsers', 'viewUsers[]', 'viewUsersList');"><img src="templates/skins/{$controlVariables.editTab.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td>
+    </tr> 
+    <tr> 
+      <td valign='top' colspane='2'>&nbsp;</td> 
+    </tr> 
+    <tr> 
+      <td colspan='4' valign='top'><input name='update' type='submit' id='update' value='Ok' class='NormalTextBox'></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='editTab'>
+  <input type='hidden' id='editUsersList' name='editUsersList' value="{foreach name=editUsersLoop key=key item=item  from=$controlVariables.editTab.editUsers}{$item.user_group_id}{if not $smarty.foreach.editUsersLoop.last},{/if}{/foreach}">
+  <input name='viewUsersList' type='hidden' id='viewUsersList' value="{foreach name=eviewUsersLoop key=key item=item  from=$controlVariables.editTab.viewUsers}{$item.user_group_id}{if not $smarty.foreach.eviewUsersLoop.last},{/if}{/foreach}">
+</form>

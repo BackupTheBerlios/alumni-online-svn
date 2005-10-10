@@ -1,0 +1,17 @@
+<form action="index.php?DisplayModule:{$controlVariables.pollAddAnswer.moduleId}:addPollAnswer" method="post" name="addAnswerForm" id="addAnswerForm"> 
+  <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+{if $controlVariables.pollAddAnswer.added}  
+    <tr> 
+      <td class="info">Answer added to poll!</td> 
+    </tr>
+{/if}	
+    <tr> 
+      <td class="tableheader">Please type answer and click 'add' button to add to poll</td> 
+    </tr> 
+    <tr> 
+      <td><input name="answer" type="text" id="answer" style="width:280px;"> 
+        <input type="submit" name="Submit" value="Add"></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='pollAddAnswer_{$controlVariables.pollAddAnswer.moduleId}'> 
+</form>

@@ -1,0 +1,12 @@
+<form action="index.php?DisplayModule:{$controlVariables.rssEdit.moduleId}:editRSS" method="post" name="rssEditForm" id="rssEditForm">
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17%">Feed Url</td>
+    <td width="83%"><input name="feedUrl" type="text" id="feedUrl" value="{$controlVariables.rssEdit.feedUrl}"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="submit" name="Submit" value="Ok" class="button"></td>
+  </tr>
+</table>
+  <input name='event' type='hidden' id='event' value='rssEdit'>
+</form>

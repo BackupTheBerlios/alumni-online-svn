@@ -1,0 +1,29 @@
+<form name="faq" method="post" action="index.php?DisplayModule:{$controlVariables.faqEdit.moduleID}:AddFaqQuestion"> 
+<table width="100%" border="0" cellpadding="1" cellspacing="0">
+{if $controlVariables.faqEdit.success}
+  <tr class='Info'> 
+    <td colspan="2">Question Successfully added!</td>
+  </tr>
+{/if} 
+{if $controlVariables.faqEdit.error} 
+  <tr class='Error'> 
+    <td colspan="2">Unable to add question!</td>
+  </tr>
+{/if}  
+  <tr class="tableHeader"> 
+    <td width="25">Question</td> 
+    <td><input name="question" type="text" id="question" style="width:300px;"></td> 
+  </tr>
+  <tr class="tableHeader"> 
+    <td valign="top">Answer</td> 
+    <td><textarea name="answer" id="answer" style="width:300; height:150px;"></textarea></td> 
+  </tr> 
+  <tr> 
+    <TD colspan="2">&nbsp;</TD> 
+  </tr> 
+  <tr> 
+    <td colSpan="2"><input type="submit" name="Submit" value="Add" class='button'></td> 
+  </tr> 
+</table>
+<input name='event' type='hidden' id='event' value='faqEdit'> 
+</form>

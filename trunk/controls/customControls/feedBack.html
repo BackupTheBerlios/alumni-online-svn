@@ -1,0 +1,23 @@
+<form name="feedBackForm" method="post" action="index.php?tab={$controlVariables.feedBack.tabId}">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+{if $controlVariables.feedBack.error}
+    <tr class='Error'>
+      <td>Unable to record your feed back. Please try again, later.</td>
+    </tr>
+{elseif $controlVariables.feedBack.succeed}
+    <tr class='Info'>
+      <td>Thank you. Your feed back is recorded.</td>
+    </tr>
+{/if}
+  <tr>
+    <td>Your Message</td>
+  </tr> 
+  <tr>
+    <td><textarea name="content" cols="90" rows="15" id="content" style="width:300px; height:170px;"></textarea></td>
+  </tr>  
+   <tr>
+    <td colspan="2"><input type="submit" name="Submit" value="Send" class="CommandButton"></td>
+  </tr>
+</table>
+<input name='event' type='hidden' id='event' value='feedBack'>
+</form>

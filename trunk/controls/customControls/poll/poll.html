@@ -1,0 +1,39 @@
+{if $controlVariables.poll.question==""}
+<table width="100%" border="0" cellpadding="3" cellspacing="0"> 
+	<tr> 
+      <td class="Error" colspan="2">No Poll avaliable!</td> 
+    </tr>
+</table> 
+{else}
+ {if not $controlVariables.poll.answered}
+<form name="pollForm" action="index.php?tab={$controlVariables.poll.tabId}" method="post"> 
+  <table width="100%" border="0" cellpadding="3" cellspacing="0"> 
+    <tr> 
+      <td class="tableHeader" colspan="2">{$controlVariables.poll.question}</td> 
+    </tr>
+{foreach key=key item=item  from=$controlVariables.poll.answers}	
+    <tr class="{cycle values="tableEvenRow,tableOddRow"}"> 
+      <td width="5%"><input name="answer" type="radio" value="{$item.poll_answers_id}"></td>
+	  <td width="95%">{$item.value}</td> 
+    </tr>
+{/foreach}
+    <tr> 
+      <td colspan="2"><input name="Vote" type="submit" id="Vote" value="Vote" class="button"></td> 
+    </tr>
+  </table>
+  <input name='event' type='hidden' id='event' value='poll_{$controlVariables.poll.moduleId}'>   
+</form>
+ {else}
+   <table width="100%" border="0" cellpadding="3" cellspacing="0"> 
+  	<tr> 
+      <td class="tableHeader" colspan="2">{$controlVariables.poll.question}</td> 
+    </tr>
+{foreach key=key item=item  from=$controlVariables.poll.result}	
+    <tr class="{cycle values="tableEvenRow,tableOddRow"}"> 
+      <td>{$item.value}</td>
+	  <td>%{$item.percent} ({$item.score} Votes)</td> 
+    </tr>
+{/foreach}
+	</table>
+ {/if}	
+{/if}

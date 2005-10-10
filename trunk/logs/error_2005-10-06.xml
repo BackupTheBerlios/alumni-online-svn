@@ -1,0 +1,321 @@
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_connect(): Client does not support authentication protocol requested by server; consider upgrading MySQL client</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>340</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>256</errornum>
+	<type>User Error</type>
+	<message>mysql error: [1251: Client does not support authentication protocol requested by server; consider upgrading MySQL client] in CONNECT(localhost, '****', '****', alumnionline)
+</message>
+	<script>contrib\adodb\adodb-errorhandler.inc.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_HOST already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>22</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_USER already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>28</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_PASSWORD already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_TYPE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>40</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_NAME already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>46</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DATABASE_TABLE_PREFIX already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>53</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_APPLICATION_BASE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>62</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_WWW_ROOT already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>70</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_CONTRIB already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>77</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_CONTROLS already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>84</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_SMARTY_BASE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>91</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_TEMPLATES_SITE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>98</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant DIR_TEMPLATES_CONTAINER already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>105</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant APPLICATION_NAME already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>116</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant APPLICATION_VERSION already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>123</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant WS_PROJECT_CODE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>134</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant WS_COMPONENT_ID already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>141</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant WS_VERSION_ID already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant WS_ISSUE_TYPE already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant SMARTY_CACHING already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>165</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Constant ERROR_REPORTING_LEVEL already defined</message>
+	<script>controls\controls.Settings.php</script>
+	<line>171</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  title</message>
+	<script>skins\templates_c\%%AD^AD3^AD36EEBA%%siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  showVersion</message>
+	<script>skins\templates_c\%%AD^AD3^AD36EEBA%%siteSkinBase.tpl.php</script>
+	<line>7</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>
+<error>
+	<time>09:02:36</time>
+	<errornum>2</errornum>
+	<type>Warning</type>
+	<message>mysql_query(): supplied argument is not a valid MySQL-Link resource</message>
+	<script>contrib\adodb\drivers\adodb-mysql.inc.php</script>
+	<line>461</line>
+</error>

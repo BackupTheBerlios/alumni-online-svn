@@ -1,0 +1,108 @@
+{if $controlVariables.addTab.displayForm}
+<form name='newTabForm' method='post' action='index.php?AddTab'> 
+  <table width='100%'  border='0' cellspacing='0' cellpadding='0'>
+{if $controlVariables.addTab.tabnameError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please enter tabname!</td> 
+    </tr>
+{/if}
+    <tr> 
+      <td width='156'>Tab Name</td> 
+      <td colspan="3"><input name='tabname' type='text' id='tabname' size='48' class='TextField'></td> 
+    </tr>
+    <tr> 
+      <td valign='top' colspan='2'>&nbsp;</td> 
+    </tr> 
+{if $controlVariables.addTab.titleError}
+    <tr> 
+      <td valign='top' colspan='2' class='Error'>Please enter title!</td> 
+    </tr>
+{/if}
+    <tr> 
+      <td width='156'>Title</td> 
+      <td colspan="3"><input name='title' type='text' id='title' size='48' class='TextField'></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Description</td> 
+      <td colspan="3"><textarea name='description' cols='46' rows='3' id='description'></textarea></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Keywords</td> 
+      <td colspan="3"><textarea name='keywords' cols='46' rows='3' id='keywords'></textarea></td> 
+    </tr> 
+    <tr> 
+      <td valign='top' colspan='2'>&nbsp;</td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Parent tab</td> 
+      <td colspan="3"><select name='parenttab' id='parenttab'> 
+          <option value='0' selected>&lt;Not Specified&gt;</option>
+	{foreach key=key item=item  from=$controlVariables.addTab.tabList}		  
+		  <option value='{$key}'>{$item}</option> 
+	{/foreach}		  
+        </select></td> 
+    </tr> 
+    <tr> 
+      <td valign='top'>Hidden</td> 
+      <td colspan="3"><input name='ishidden' type='checkbox' id='ishidden' value='1'></td> 
+    </tr> 
+    <tr> 
+      <td valign='top' colspan='4'>&nbsp;</td> 
+    </tr>
+{if $controlVariables.addTab.editRolesError}
+    <tr> 
+      <td valign='top' colspan='4' class='Error'>Please assign at least one group with edit right!</td> 
+    </tr>
+{/if}	
+    <tr> 
+      <td rowspan="2" valign='top'><span class="SubHead">Roles that can Edit Content: </span></td> 
+      <td width="98" rowspan="2"><select name="notEditUsers" size="5" id="notEditUsers"  style="width:150px; height:150px;">
+	  <option value="1">Everyone</option>
+{foreach key=key item=item  from=$controlVariables.addTab.groupList}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}
+      </select></td> 
+      <td width="33" height="76" align="center" valign="middle"><a href="JavaScript:addIt('notEditUsers', 'editUsers[]', 'editUsersList');"><img src="templates/skins/{$controlVariables.addTab.theme}/images/arrowRight.gif" width="16" height="16" border="0"></a></td>
+      <td width="380" rowspan="2"><select name="editUsers[]" size="5" id="editUsers[]"  style="width:150px; height:150px;" multiple>
+      </select></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notEditUsers', 'editUsers[]', 'editUsersList');"><img src="templates/skins/{$controlVariables.addTab.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td>
+    </tr> 
+    <tr> 
+      <td valign='top' colspan='2'>&nbsp;</td> 
+    </tr>
+{if $controlVariables.addTab.viewRolesError}
+    <tr> 
+      <td valign='top' colspan='4' class='Error'>Please assign at least one group with view right!</td> 
+    </tr>
+{/if}		
+    <tr> 
+      <td rowspan="2" valign='top'><span class="SubHead">Roles that can View Content:</span></td> 
+      <td rowspan="2"><select name="notViewUsers" size="5" id="notViewUsers"  style="width:150px; height:150px;">
+{foreach key=key item=item  from=$controlVariables.addTab.groupList}	
+        <option value="{$item.user_group_id}">{$item.name}</option>
+{/foreach}		
+      </select></td> 
+      <td height="56" align="center" valign="middle"><a href="JavaScript:addIt('notViewUsers', 'viewUsers[]', 'viewUsersList');"><img src="templates/skins/{$controlVariables.addTab.theme}/images/arrowRight.gif" width="16" height="16" border="0"></a></td>
+      <td rowspan="2"><select name="viewUsers[]" size="5" id="viewUsers[]"  style="width:150px; height:150px;" multiple>
+        <option value="1">Everyone</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"><a href="JavaScript:delIt('notViewUsers', 'viewUsers[]', 'viewUsersList');"><img src="templates/skins/{$controlVariables.addTab.theme}/images/arrowLeft.gif" width="16" height="16" border="0"></a></td>
+    </tr> 
+    <tr> 
+      <td valign='top' colspan='2'>&nbsp;</td> 
+    </tr> 
+    <tr> 
+      <td colspan='4' valign='top'><input name='update' type='submit' id='update' value='Ok' class='NormalTextBox'></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='addTab'>
+  <input type='hidden' id='editUsersList' name='editUsersList'>
+  <input name='viewUsersList' type='hidden' id='viewUsersList' value="1">
+</form>
+{else}
+<p class="info">New tab successfully added!</p>
+{/if}

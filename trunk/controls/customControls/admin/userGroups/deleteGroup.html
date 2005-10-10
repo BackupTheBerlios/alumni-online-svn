@@ -1,0 +1,5 @@
+<form name="deleteGroupForm" method="post" action="index.php?DeleteGroup:{$controlVariables.deleteGroup.groupID}">
+<p>Do you really want to delete user group '{$controlVariables.deleteGroup.groupName}'?</p>
+  <input name="delete" type="submit" id="delete" value="Yes, delete" class='NormalTextBox'>
+  <input name="event" type="hidden" id="event" value="deleteGroup">
+</form>

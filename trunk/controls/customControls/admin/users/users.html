@@ -1,0 +1,53 @@
+{pager 
+	rowcount=$controlVariables.users.userCount
+	limit=10 
+	forwardvars='tab' 
+	txt_pos='side' 
+	separator=' | ' 
+	class_num='navigatorNumber' 
+	class_numon='navigatorCurrent' 
+	img_prev="$skinPath/images/nav_pre.gif" 
+	img_next="$skinPath/images/nav_next.gif"
+	txt_first=''
+}
+<table width="100%" border="0" cellpadding="1" cellspacing="0">
+  <tr class="tableHeader">
+    <td>&nbsp;</td>
+	<td>Username</td>
+    <td>Name/Surname</td>
+    <td>Email</td>
+    <td>Group</td>	
+    <td>&nbsp;</td>
+  </tr>
+{foreach key=key item=item  from=$controlVariables.users.userList}	  
+  <tr class="{cycle values="tableEvenRow,tableOddRow"}">
+    <td align="center" valign="middle">{if $item.image}<img src="images/userImages/{$item.image}.gif">{/if}</td>
+	<td{if $item.is_active!="1"} class="InactiveUserRow"{/if}>{$item.username}</span></td>
+    <td{if $item.is_active!="1"} class="InactiveUserRow"{/if}>{$item.name} {$item.surname}</td>
+    <td{if $item.is_active!="1"} class="InactiveUserRow"{/if}>{$item.email}</td>
+    <td{if $item.is_active!="1"} class="InactiveUserRow"{/if}>{$item.group_name}</td>
+    <td>
+		<a href="index.php?UserInfo:{$item.username}"><img src="{skinPath}/images/info.gif" alt="Display User '{$item.username}' Information" border="0"></a>&nbsp;
+		<a href="index.php?DeleteUser:{$item.username}"><img src="{skinPath}/images/delete.gif" alt="Delete User '{$item.username}'" border="0"></a>
+	</td>
+  </tr>
+{/foreach}  
+  <tr>
+    <td colspan="6">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="right" class="tableFooter">There are <strong>{$controlVariables.users.userCount}</strong> registered users</td>
+  </tr>
+</table>
+{pager 
+	rowcount=$controlVariables.users.userCount
+	limit=10 
+	forwardvars='tab' 
+	txt_pos='side' 
+	separator=' | ' 
+	class_num='navigatorNumber' 
+	class_numon='navigatorCurrent' 
+	img_prev="$skinPath/images/nav_pre.gif" 
+	img_next="$skinPath/images/nav_next.gif"
+	txt_first=''
+}

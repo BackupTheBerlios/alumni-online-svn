@@ -1,0 +1,8 @@
+<error>
+	<time>19:36:54</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  _current_file</message>
+	<script>controls\formControls\functions\function.aoForms_TextField.php</script>
+	<line>26</line>
+</error>

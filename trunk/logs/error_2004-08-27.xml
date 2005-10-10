@@ -1,0 +1,877 @@
+<error>
+	<time>21:17:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  displayForm</message>
+	<script>skins\templates_c\%%-84^%%-848745033^addModule.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>21:41:06</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to check user authentication for module delete
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near '} AND (authorized_roles LIKE '%;1;%' OR authorized_roles LIKE '</message>
+	<script>controls\customControls\admin\modules\deleteModule.php</script>
+	<line>64</line>
+</error>
+<error>
+	<time>21:42:50</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to check user authentication for module delete
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near '} AND (authorized_roles LIKE '%;1;%' OR authorized_roles LIKE '</message>
+	<script>controls\customControls\admin\modules\deleteModule.php</script>
+	<line>65</line>
+</error>
+<error>
+	<time>21:43:51</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  deleteModule</message>
+	<script>skins\templates_c\%%-20^%%-2046860732^deleteModule.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>21:43:51</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  deleteModule</message>
+	<script>skins\templates_c\%%-20^%%-2046860732^deleteModule.html.php</script>
+	<line>5</line>
+</error>
+<error>
+	<time>22:03:16</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  deleteModule</message>
+	<script>skins\templates_c\%%-20^%%-2046860732^deleteModule.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>22:03:16</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  deleteModule</message>
+	<script>skins\templates_c\%%-20^%%-2046860732^deleteModule.html.php</script>
+	<line>5</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:09:37</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:09:59</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:10:18</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to check user authentication for module edit
+reason is : Unknown column 'Object' in 'where clause'</message>
+	<script>controls\customControls\admin\modules\editModule.php</script>
+	<line>84</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:14:02</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to check user authentication for module edit
+reason is : Unknown column 'Object' in 'where clause'</message>
+	<script>controls\customControls\admin\modules\editModule.php</script>
+	<line>84</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:14:09</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>13</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>34</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>38</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notViewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>58</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>69</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  notEditUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>99</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>110</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>145</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>146</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>147</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>148</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>154</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>155</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleInfo</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>156</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  editUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>172</line>
+</error>
+<error>
+	<time>22:16:50</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  viewUsers</message>
+	<script>skins\templates_c\%%132^%%1322673835^editModule.html.php</script>
+	<line>183</line>
+</error>
+<error>
+	<time>22:25:10</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  moduleID</message>
+	<script>controls\customControls\admin\modules\moveModule.php</script>
+	<line>81</line>
+</error>
+<error>
+	<time>22:25:10</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to check user authentication for module move
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND (administrator_roles LIKE '%;1;%' OR administrator_roles LI</message>
+	<script>controls\customControls\admin\modules\moveModule.php</script>
+	<line>85</line>
+</error>
+<error>
+	<time>22:25:54</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  moduleID</message>
+	<script>controls\customControls\admin\modules\moveModule.php</script>
+	<line>81</line>
+</error>
+<error>
+	<time>22:25:54</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined property:  moduleID</message>
+	<script>controls\customControls\admin\modules\moveModule.php</script>
+	<line>82</line>
+</error>

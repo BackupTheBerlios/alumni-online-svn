@@ -1,0 +1,15 @@
+<form name="pollEditForm" method="post" action="index.php?DisplayModule:{$controlVariables.pollEditQuestion.moduleId}:editPollQuestion"> 
+  <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+{if $controlVariables.pollEditQuestion.updated}  
+	<tr> 
+      <td colspan="2" class="Info">Question successfully updated!</td> 
+	</tr>
+{/if}	
+    <tr> 
+      <td width="14%" valign="top"  class="tableHeader">Question </td>
+      <td width="86%"> <input name="question" type="text" id="question"   style="width:280px;" value="{$controlVariables.pollEditQuestion.question}"> 
+        <input type="submit" name="Submit" value="Update"  class="button"> </td> 
+    </tr> 
+  </table>
+  <input name='event' type='hidden' id='event' value='pollEditQuestion_{$controlVariables.pollEditQuestion.moduleId}'>
+</form>

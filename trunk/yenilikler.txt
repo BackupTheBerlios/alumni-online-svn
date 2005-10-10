@@ -1,0 +1,84 @@
+<============================  3.1.0.0   ========================================>
+ - Module eklerken tasiyici ekleme seçenegi eklendi.
+ - Olay sistemi tasarlandi.
+
+<============================  3.0.0.1   ========================================>
+ - Hata düzeltme sürümü
+ - Her bir modulü kendi tasiyicisini seçebilir.
+ - otomatik hata bildirme islemi iptal edildi.
+ - "Sifremi unuttum" link eklendi
+ 
+<============================  3.0.0.0   ========================================>
+ - Geçen zamanla birlikte php, asp ve asp.net dillerinde kazandigim deneyim sayesinde
+ ögrendigin yeni tekniklerle birlikte Alumni-Online kodunu bastan yazdim ;)
+ - Yeni sablon yapisi sayesinde site arayüzü php bilmeden sadece html bilgisiyle
+ degistirilebiliyor.
+ - Kullanici site arayüzün disinda her bir modül için ayri ayri tasiyici sablonlari
+kullanibilir.
+ - Sistemde meydana gelen hatalar xml formatinda kaydediliyor. Bu özellik sistem 
+ yöneticilerine yardim edecegi gibi AO üzerinde olusan hatalarin enterprisecoding.com
+ hata takip sistemine aktarilmasi için kullanilmaktadir.
+ - Kullanici yönetimi gelistirildi. Sistem yöneticileri her bir tab'a, her tab'daki
+ her bir modüle iliskin kullanici yetkilendirmesi yapabilir.
+ - Yeni modüler sistem sayesinde Alumni-Online'i yönetmek hiç bu kadar kolay olmamisti!
+ - ADObd kütüphanesi sayesinde olusturulan veritabani katmani ile genis bir yelpazede
+ veritabani destegi saglandi.
+
+<============================  2.2.1.0   ========================================>
+ - Kullanicilar sisteme giriþlerinden sonra kullanici anasayfasina yönlendiriliyorlar
+ - Kurulum betigi eklendi
+ - Yeni kullanici baþvurusunda sistem yöneticisine uyari maili gönderiliyor
+    (ABE LOVELESS'a teþekkürler - abe@lovelesscentral.org)
+
+
+<============================  2.2.0.0   ========================================>
+ - Kullanicilar kendilerini sisteme ekleyebilirler.
+ - Yeni üye olan kullanicilara gönderilecek mesaj seçilebiliyor
+ - Bazi hatalar düzeltildi
+ - Yönetici iþlemleri ayni dizin altina toplandi
+ - "Yeni Gelenler" bölümüyle yeni katilan üyeler listelenebilinir
+ - Sistem yöneticisi üye bilgilerini düzenleyebilir
+ - Fotograf albümü eklendi
+ - Üye bilgilerine icq, msn ve yahoo bilgileride eklendi
+
+<============================  2.1.0.0   ========================================>
+ - Güvenlik tekrar gözden geçirildi
+ - Mesaj Panosu eklendi
+ - Alumni-OnLine'in web sunucusunuzun ana dizininde olmasi gerekmiyor
+ - Listelemelerde sayfalama yapabiliyor (Kullanici veya haber listesinde oldugu gibi)
+ - ao_users tablosuna kullanici adi alani eklendi
+ 	* Artik kullanicilar istedikleri kullanici adini kullanabilirler (Bosluk bulunmamasi kaydiyla)
+
+<============================  2.0.1.0   ========================================>
+ 
+ - Haberlerin düzenlenmesi ve silinmesi sayfa üzerindeki linkler yardimiyla 
+gerçeklestirilebiliniyor
+ - Fakülte ve bölümler arayüz üzerinden düzenlenebiliniyor
+ - Kullanici listesi bölümü eklendi
+            * Sistemdeki tüm kullanicilar görülebiliniyor
+            * Istenilen kullanici silinebiliniyor
+ - Haberlerin veritabaninda saklanmasi sirasinda ' ve " karakterlerinde meydana gelen
+sorunlar düzeltildi.
+
+<============================  2.0.0.0   ========================================>
+
+ - Veritabani yapisi gözden geçirildi,
+ - "Haberler" bölümü ve veritabani yeniden düzenlendi
+            * Haberlerdeki tarih bildirisi kaldirildi
+            * Istenildigi zaman eski bir haber tekrar yayina sokulabilinir
+ - Linkler dinamik hale getirildi
+            * Yeni bir link grubu olustura bilir
+            * Sadece üyelerin görmesini isteyebilir
+            * Istediginiz link grubunu kaldirabilir
+            * Istediginiz link grubunu yeniden yayina sokabilirsiniz
+ - Ziyaretçi Sayaci Eklendi
+
+
+<============================  1.7.1.1   ========================================>
+
+ - Haber ekleme bölümü güncellendi (RichText editor'üne teþekkürler)
+ - Yeni veritabani class'i (MSSQL) eklendi
+ - SQL sorgulari güncellendi 
+             * Artik tablo isimlerinde önek kullanabilirsiniz
+             * Veritabanlarina özel fonksiyonlar kaldirildi
+ - Veritabani tablo yapilari güncellendi

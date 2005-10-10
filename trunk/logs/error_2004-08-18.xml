@@ -1,0 +1,126 @@
+<error>
+	<time>01:18:39</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  answers</message>
+	<script>skins\templates_c\%%-18^%%-1886573428^pollEdit.html.php</script>
+	<line>15</line>
+</error>
+<error>
+	<time>01:22:29</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  pollEdit</message>
+	<script>skins\templates_c\%%-18^%%-1886573428^pollEdit.html.php</script>
+	<line>8</line>
+</error>
+<error>
+	<time>01:22:29</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  pollEdit</message>
+	<script>skins\templates_c\%%-18^%%-1886573428^pollEdit.html.php</script>
+	<line>17</line>
+</error>
+<error>
+	<time>02:23:31</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to insert poll question
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+						VALUES
+						(
+							48,
+							'insert ettin mi!?</message>
+	<script>controls\customControls\poll\pollEditQuestion.php</script>
+	<line>124</line>
+</error>
+<error>
+	<time>02:26:28</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to insert poll question
+reason is : You have an error in your SQL syntax.  Check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+						VALUES
+						(
+							48,
+							'ad as'
+						)' </message>
+	<script>controls\customControls\poll\pollEditQuestion.php</script>
+	<line>124</line>
+</error>
+<error>
+	<time>03:14:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  pollEditQuestion</message>
+	<script>skins\templates_c\%%-16^%%-1605920757^pollAddAnswer.html.php</script>
+	<line>3</line>
+</error>
+<error>
+	<time>03:14:06</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  pollEditQuestion</message>
+	<script>skins\templates_c\%%-16^%%-1605920757^pollAddAnswer.html.php</script>
+	<line>14</line>
+</error>
+<error>
+	<time>03:15:05</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to add answer
+reason is : Unknown column 'value' in 'field list'</message>
+	<script>controls\customControls\poll\pollAddAnswer.php</script>
+	<line>78</line>
+</error>
+<error>
+	<time>03:18:58</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  pollEditQuestion</message>
+	<script>skins\templates_c\%%-17^%%-1719946867^pollEditAnswers.html.php</script>
+	<line>31</line>
+</error>
+<error>
+	<time>03:20:07</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleId</message>
+	<script>skins\templates_c\%%-17^%%-1719946867^pollEditAnswers.html.php</script>
+	<line>31</line>
+</error>
+<error>
+	<time>03:20:22</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleId</message>
+	<script>skins\templates_c\%%-17^%%-1719946867^pollEditAnswers.html.php</script>
+	<line>5</line>
+</error>
+<error>
+	<time>03:20:22</time>
+	<errornum>8</errornum>
+	<type>Notice</type>
+	<message>Undefined index:  moduleId</message>
+	<script>skins\templates_c\%%-17^%%-1719946867^pollEditAnswers.html.php</script>
+	<line>32</line>
+</error>
+<error>
+	<time>03:22:14</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to delete answer '7'
+reason is : Unknown column 'poll_answers_id' in 'where clause'</message>
+	<script>controls\customControls\poll\pollEditAnswers.php</script>
+	<line>71</line>
+</error>
+<error>
+	<time>03:23:26</time>
+	<errornum>1024</errornum>
+	<type>User Notice</type>
+	<message>Unable to delete answer 'Array'
+reason is : Unknown column 'Array' in 'where clause'</message>
+	<script>controls\customControls\poll\pollEditAnswers.php</script>
+	<line>71</line>
+</error>
