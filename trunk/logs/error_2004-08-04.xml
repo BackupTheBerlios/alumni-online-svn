@@ -1,8 +1,0 @@
-<error>
-	<time>21:03:38</time>
-	<errornum>2</errornum>
-	<type>Warning</type>
-	<message>main(controls.Mailer.php): failed to open stream: No such file or directory</message>
-	<script>controls\customControls\admin\users\sendMessage.php</script>
-	<line>14</line>
-</error>
