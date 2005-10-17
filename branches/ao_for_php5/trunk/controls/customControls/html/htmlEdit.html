@@ -1,0 +1,16 @@
+<form name='htmlEditForm' method='post' action='index.php?DisplayModule:{$controlVariables.htmlEdit.moduleId}:Edit'> 
+  <table width='100%'  border='0' cellspacing='0' cellpadding='0'>
+    <tr> 
+      <td><textarea name="content" cols="90" rows="15" id="content">{$controlVariables.htmlEdit.content}</textarea></td> 
+    </tr> 
+   {if $controlVariables.htmlEdit.infoMessage!=""}
+    <tr class='Info'> 
+      <td>{$controlVariables.htmlEdit.infoMessage}</td> 
+    </tr> 
+    {/if}
+    <tr> 
+      <td align="left"><input name="update" type="submit" id="update" value="Update" class='button'></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='htmlEdit_{$controlVariables.htmlEdit.moduleId}'> 
+</form>

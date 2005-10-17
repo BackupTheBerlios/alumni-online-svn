@@ -1,0 +1,19 @@
+<table width="100%" border="0" cellpadding="1" cellspacing="0">
+{foreach key=key item=item  from=$controlVariables.faq.faqList}	  
+  <tr class="tableHeader">
+{if $controlVariables.faq.canUserEdit}
+	<td width="15"><a href="index.php?EditFAQAnswer:{$item.faq_id}"><img src="{skinPath}/images/edit.gif" border="0"></a></td>
+{/if}	
+  	<td width="25"><img src="{skinPath}/images/faqQuestion.gif"></td>
+    <td>{$item.question}</td>
+  </tr>	
+  <tr>
+{if $controlVariables.faq.canUserEdit}  
+	<td>&nbsp;</td>
+{/if}	
+	<td>&nbsp;</td>
+	<td>{$item.answer}</td>
+  </tr>
+{/foreach}
+</table>
+ 

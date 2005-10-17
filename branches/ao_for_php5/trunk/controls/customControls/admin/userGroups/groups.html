@@ -1,0 +1,48 @@
+{pager 
+	rowcount=$controlVariables.groups.groupCount
+	limit=1 
+	forwardvars='tab' 
+	txt_pos='side' 
+	separator=' | ' 
+	class_num='navigatorNumber' 
+	class_numon='navigatorCurrent' 
+	img_prev="$skinPath/images/nav_pre.gif" 
+	img_next="$skinPath/images/nav_next.gif"
+	txt_first=''
+}
+<table width="100%" border="0" cellpadding="1" cellspacing="0">
+  <tr class="tableHeader">
+    <td width="%1">&nbsp;</td>
+	<td width="%90">Group name</td>
+	<td width="%9" nowrap>Number of Users</td>
+	<td>&nbsp;</td>
+  </tr>
+{foreach key=key item=item  from=$controlVariables.groups.groupList}	  
+  <tr class="{cycle values="tableEvenRow,tableOddRow"}">
+    <td>&nbsp;</td>
+	<td>{$item.name}</td>
+    <td>{$item.user_count}</td>
+    <td>
+		<a href="index.php?DeleteGroup:{$item.user_group_id}"><img src="{skinPath}/images/delete.gif" alt="Delete Group '{$item.name}'" border="0"></a>
+	</td>	
+  </tr>
+{/foreach}  
+  <tr>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4" align="right" class="tableFooter">There are <strong>{$controlVariables.groups.groupCount}</strong> user groups</td>
+  </tr>
+</table>
+{pager 
+	rowcount=$controlVariables.groups.groupCount
+	limit=10 
+	forwardvars='tab' 
+	txt_pos='side' 
+	separator=' | ' 
+	class_num='navigatorNumber' 
+	class_numon='navigatorCurrent' 
+	img_prev="$skinPath/images/nav_pre.gif" 
+	img_next="$skinPath/images/nav_next.gif"
+	txt_first=''
+}

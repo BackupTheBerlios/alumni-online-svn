@@ -1,0 +1,81 @@
+<============================  3.1.0.0   ========================================>
+ - Ability to select container on addModule added
+ - Event system has been implemented.
+ 
+<============================  3.0.0.1   ========================================>
+ - Bugfix release
+ - Each module could have seperate containers.
+ - Automatic error reporting has been cancelled.
+ - "Forget password" option added to login form.
+
+<============================  3.0.0.0   ========================================>
+ - After working on server-side scripts asp, php, and asp.net; I've learned so many
+ new techniques. So i've decide to re-write Alumni-Online ;)
+ - With new template system, it's so easy to design templates  with no php knowledge.
+ - Error logs could save in xml format. This will help system administrators, also
+ it is used by enterprisecoding.com bug tracker system.
+ - Exception viewer help system administrators to see exceptions as well as submiting
+ thme to SmartCoding Tracker system <http://tracker.enterprisecoding.com>
+ - User management has been improved.System administrators can assign user rights for
+each tab, as well as for each module within tabs! 
+ - New module system, it is so easy to manage Alumni-Online. It also allows
+contributers to extend Alumni-Online easily
+ - ADOdb library used for database layer, so has a wide range of support for db
+
+<============================  2.2.1.0   ========================================>
+ - User will redirect to welcome page after login
+ - Installation script added
+ - Notification mail will send on new user submission
+    (Thanks to ABE LOVELESS - abe@lovelesscentral.org)
+
+<============================  2.2.0.0   ========================================>
+ - users can "self-register" to the site
+ - Administrator can choose which message to send to the new users
+ - Some bugs corrected
+ - New users list can be seen in "Newcomers" section
+ - Administrator can change user's information
+ - Photo album has been added
+ - new fields added to the user information (icq, msn ve yahoo)
+
+
+<============================  2.1.0.0   ========================================>
+ - System security is rearranged
+ - Message Board is added
+ - You don't have to place Alumni-OnLine at root directory of your web server
+ - Paging in listing is now avaliable (i.e. : in user list or news list)
+ - Username field is added to the ao_users table
+ 	* Now users can select any non-spacing word as their username
+	
+
+<============================  2.0.1.0   ========================================>
+
+ - Editing and deleting operation on the news can be done by the links near to the news
+ - Faculties and departments can edit from a link in admin menu (departments.php)
+ - User List section is added :
+              * All user in the sytem can be list
+              * Any user can be deleted
+ - Error on ' and " while saving the news into the database is corrected
+
+
+<============================  2.0.0.0   ========================================>
+
+ - Database structure is updated
+ - "News" section and its database redesigned
+              * Date information has been removed
+              * Anytime an old news can ben reactivated
+ - Links became dinamic
+              * New link gorup can be create
+              * Only member would be see
+              * Any links groups can be removed
+              * Any link group can be reactivated
+ - Counter is added
+
+
+<============================  1.7.1.1   ========================================>
+
+ - News adding section is updated (with the help of RichText editor),
+ - New database (MSSql) class is added,
+ - Sql queryies updated 
+              * Now you can use a table name prefix
+              * Database specific functions are removed
+ - Database tables updated

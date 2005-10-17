@@ -1,0 +1,5 @@
+<form name="deleteUserForm" method="post" action="index.php?DeleteUser:{$controlVariables.deleteUser.username}">
+<p>Do you really want to delete user '{$controlVariables.deleteUser.username}'?</p>
+  <input name="delete" type="submit" id="delete" value="Yes, delete" class='NormalTextBox'>
+  <input name="event" type="hidden" id="event" value="deleteUser">
+</form>

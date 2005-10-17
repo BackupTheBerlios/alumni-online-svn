@@ -1,0 +1,33 @@
+{if $controlVariables.sendMessage2User.username==""}
+<p class="Error">Username to send message is not supplied!</p>
+{else}
+<form name="sendMessage2UserForm" method="post" action="index.php?SendMessage:{$controlVariables.sendMessage2User.username}">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+{if $controlVariables.sendMessage2User.errorInfo!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.sendMessage2User.errorInfo}</td>
+    </tr>
+{elseif $controlVariables.sendMessage2User.succeed!=""}
+    <tr class='Info'>
+      <td colspan='2'>Mail has been send!</td>
+    </tr>
+{/if}
+  <tr>
+    <td valign="top">To</td>
+    <td><b>{$controlVariables.sendMessage2User.username}</b></td>
+  </tr>
+  <tr>
+    <td valign="top">Subject</td>
+    <td><input name="subject" type="text" id="subject" style="width:300px;" class="NormalTextBox"></td>
+  </tr>  
+  <tr>
+    <td valign="top">Message</td>
+    <td><textarea name="content" cols="90" rows="15" id="content" style="width:300px; height:170px;"></textarea></td>
+  </tr>  
+   <tr>
+    <td colspan="2"><input type="submit" name="Submit" value="Send" class="CommandButton"></td>
+  </tr>
+</table>
+<input name='event' type='hidden' id='event' value='sendMessage2User'>
+</form>
+{/if}

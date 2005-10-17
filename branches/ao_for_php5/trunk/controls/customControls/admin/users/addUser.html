@@ -1,0 +1,100 @@
+<form name="addUserForm" method="post" action=""> 
+  <table width="100%"  border="0" cellspacing="1" cellpadding="0">
+{if $controlVariables.addUser.isUserAdded}
+    <tr class='Info'>
+      <td colspan='2'>User successfully added!</td>
+    </tr>
+{elseif $controlVariables.addUser.failMessage!=''}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.failMessage}</td>
+    </tr>
+{/if} 
+{if $controlVariables.addUser.usernameError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.usernameError}</td>
+    </tr>
+{/if} 
+    <tr> 
+      <td width="13%">Username</td> 
+      <td width="87%"><input name="username" type="text" maxlength="50"{if $controlVariables.addUser.postVariables.username!=""} value="{$controlVariables.addUser.postVariables.username}"{/if}> </td> 
+    </tr>
+{if $controlVariables.addUser.nameError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.nameError}</td>
+    </tr>
+{/if} 	
+	<tr> 
+      <td>Name</td> 
+      <td><input name="name" type="text" maxlength="50"{if $controlVariables.addUser.postVariables.name!=""} value="{$controlVariables.addUser.postVariables.name}"{/if}></td> 
+    </tr> 
+{if $controlVariables.addUser.surnameError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.surnameError}</td>
+    </tr>
+{/if} 	
+    <tr> 
+      <td>Surname</td> 
+      <td><input name="surname" type="text" maxlength="50"{if $controlVariables.addUser.postVariables.surname!=""} value="{$controlVariables.addUser.postVariables.surname}"{/if}></td> 
+    </tr> 
+{if $controlVariables.addUser.passwdError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.passwdError}</td>
+    </tr>
+{/if} 	
+	<tr> 
+      <td>Password</td> 
+      <td><input name="passwd" type="password" maxlength="50" value=""></td> 
+    </tr>
+{if $controlVariables.addUser.emailError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.emailError}</td>
+    </tr>
+{/if} 	
+	<tr> 
+      <td>Email</td> 
+      <td><input name="email" type="text" maxlength="50"{if $controlVariables.addUser.postVariables.email!=""} value="{$controlVariables.addUser.postVariables.email}"{/if}></td> 
+    </tr>
+{if $controlVariables.addUser.groupError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.addUser.groupError}</td>
+    </tr>
+{/if} 	
+	<tr> 
+      <td>User Group</td> 
+      <td><select name="group" id="group">
+	{foreach key=key item=item  from=$controlVariables.addUser.groupList}		  
+		  <option value='{$key}'{if $controlVariables.addUser.postVariables.group==$key} selected{/if}>{$item}</option> 
+	{/foreach}		
+      </select></td>
+	</tr>
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>	
+	<tr> 
+      <td>Icq</td> 
+      <td><input name="icq" type="text" maxlength="50"></td> 
+    </tr>
+	<tr> 
+      <td>Msn</td> 
+      <td><input name="msn" type="text" maxlength="50"></td> 
+    </tr>
+	<tr> 
+      <td>Yahoo!</td> 
+      <td><input name="yahoo" type="text" maxlength="50"></td> 
+    </tr> 
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>	
+	<tr> 
+      <td>Is Active?</td> 
+      <td><input name="isActive" type="checkbox" id="isActive" value="1" checked></td>
+	</tr>
+	<tr>
+      <td colspan='2'>&nbsp;</td>
+    </tr>
+	<tr>
+      <td colspan='2'><input type='submit' name='Submit' value='Add User' class='button'></td>
+    </tr>
+  </table> 
+  <input name='event' type='hidden' id='event' value='addUser'>
+</form>

@@ -1,0 +1,5 @@
+<form name="deleteTabForm" method="post" action="index.php?DeleteTab:{$controlVariables.deleteTab.tabID}">
+<p>Do you really want to delete tab '{$controlVariables.deleteTab.tabName}'?</p>
+  <input name="delete" type="submit" id="delete" value="Yes, delete" class='NormalTextBox'>
+  <input name="event" type="hidden" id="event" value="deleteTab">
+</form>

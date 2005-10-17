@@ -1,0 +1,29 @@
+<form name="faq" method="post" action="index.php?EditFAQAnswer:{$controlVariables.faqEditAnswer.faqID}"> 
+<table width="100%" border="0" cellpadding="1" cellspacing="0">
+{if $controlVariables.faqEditAnswer.success}
+  <tr class='Info'> 
+    <td colspan="2">Question Successfully updated!</td>
+  </tr>
+{/if} 
+{if $controlVariables.faqEditAnswer.error} 
+  <tr class='Error'> 
+    <td colspan="2">Unable to update question!</td>
+  </tr>
+{/if}  
+  <tr class="tableHeader"> 
+    <td width="25">Question</td> 
+    <td><input name="question" type="text" id="question" style="width:300px;" value="{$controlVariables.faqEditAnswer.question}"></td> 
+  </tr>
+  <tr class="tableHeader"> 
+    <td valign="top">Answer</td> 
+    <td><textarea name="answer" id="answer" style="width:300; height:150px;">{$controlVariables.faqEditAnswer.answer}</textarea></td> 
+  </tr> 
+  <tr> 
+    <TD colspan="2">&nbsp;</TD> 
+  </tr> 
+  <tr> 
+    <td colSpan="2"><input type="submit" name="Submit" value="Update" class='button'> &nbsp;<a href="index.php?DeleteFAQ">Delete FAQ</a></td> 
+  </tr> 
+</table>
+<input name='event' type='hidden' id='event' value='faqEditAnswer'> 
+</form>

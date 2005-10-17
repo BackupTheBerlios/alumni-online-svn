@@ -1,0 +1,561 @@
+/* background color for the content part of the pages */
+Body{
+    background-color: #FFFFFF;
+}
+
+.SubHead{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.codeSection{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000000;
+	background-color:#CCCCCC;
+	border:1px dotted black;
+}
+
+.LeftPane  { 
+}
+
+.ContentPane  { 
+}
+
+.RightPane  { 
+}
+
+.MainLinks  { 
+}
+
+.Error {
+	color: #990000;
+	font-weight: bold;
+	font-family: Tahoma, Arial, Helvetica;
+    font-size:  13px;
+}
+
+.Info {
+	color:#009933;
+	font-weight: bold;
+	font-family: Tahoma, Arial, Helvetica;
+    font-size:  13px;
+}
+
+.ModuleTitle{
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  13px;
+    font-weight:bold;
+    color: #666644;
+}
+
+/* Module menu styles */
+.ModuleMenuWrap1{
+	position:relative;
+}
+
+.ModuleMenuWrap2{
+	position:absolute;
+}
+
+.ModuleMenu{
+	position:absolute;
+	width:120;
+	left:0;
+	top:0;
+	layer-background-color:#CCCCCC;
+	background-color:#CCCCCC;
+	visibility:hidden;
+	border:1px dotted black;
+	padding:0px
+}
+
+A.ModuleMenuLink:link {
+    text-decoration: none;
+    color:#000000;
+	font-weight:bold;
+}
+
+A.ModuleMenuLink:visited  {
+    text-decoration:    none;
+    color: #000000;
+	font-weight:bold;	
+}
+
+A.ModuleMenuLink:active   {
+    text-decoration:    none;
+    color: #000000;
+	font-weight:bold;	
+}
+
+A.ModuleMenuLink:hover    {
+    text-decoration : underline;
+    color: #000000;
+	font-weight:bold;	
+}
+
+/* Admin header styles */
+.AdminHeaderTable{
+	font-weight: bold;
+	color:#000000;
+	background-color:#CCCCCC;
+	border:1px dotted black;
+}
+
+A.AdminHeaderLink:link {
+    text-decoration:    none;
+    color:black;
+	font-weight:bold;
+}
+
+A.AdminHeaderLink:visited  {
+    text-decoration:    none;
+    color:black;
+	font-weight:bold;	
+}
+
+A.AdminHeaderLink:active   {
+    text-decoration:    none;
+    color: black;
+	font-weight:bold;	
+}
+
+A.AdminHeaderLink:hover    {
+    text-decoration : underline;
+    color: black;
+	font-weight:bolder;
+}
+
+.ErrorTable {
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #993300;
+}
+
+.Error{
+    text-decoration:    none;
+    color:#993300
+	font-weight:bold;
+}
+
+A.MainLinks:link {
+    text-decoration:    none;
+    color: #FFFFFF;
+	font-weight:bold;
+}
+
+A.MainLinks:visited  {
+    text-decoration:    none;
+    color: #FFFFFF;
+	font-weight:bold;	
+}
+
+A.MainLinks:active   {
+    text-decoration:    none;
+    color: #FFFFFF;
+	font-weight:bold;	
+}
+
+A.MainLinks:hover    {
+    text-decoration : underline;
+    color: #FFFFFF;
+	font-weight:bold;	
+}
+
+/* text style used for most text rendered by modules */
+.Normal{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.NormalRed{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ff0000
+}
+
+.NormalBold{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: bold
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton {
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+    text-decoration:    underline;
+    color: #000000;
+}
+
+A.CommandButton:visited  {
+    text-decoration:    underline;
+    color: #000000;
+}
+
+A.CommandButton:active   {
+    text-decoration:    underline;
+    color: #000000;
+}
+
+A.CommandButton:hover    {
+    text-decoration:    underline;
+    color: #000000;
+}
+
+/*=*=*=*=*=*=*=*=*=*/
+
+.tableHeader{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 11px;
+}
+
+.tableEvenRow{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color:#E5E5E5;
+}
+
+.tableOddRow{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.tableFooter{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.InactiveUserRow{
+	color:#666666;
+}
+
+/* GENERIC */
+H1  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H2  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  20px;
+    font-weight:    normal;
+    color: #666644;
+}
+
+H3  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #003366;
+}
+
+H4  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    normal;
+    color: #003366;
+}
+
+H5, DT  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #003366;
+}
+
+H6  {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  11px;
+    font-weight:    bold;
+    color: #003366;
+}
+
+TFOOT, THEAD    {
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    color: #003366;
+}
+
+TH  {
+    vertical-align: baseline;
+    font-family: Tahoma, Arial, Helvetica;
+    font-size:  12px;
+    font-weight:    bold;
+    color: #003366;
+}
+
+A:link  {
+    text-decoration:    none;
+    color:  #003366;
+}
+
+A:visited   {
+    text-decoration:    none;
+    color:  #003366;
+}
+
+A:active    {
+    text-decoration:    none;
+    color:  #003366;
+}
+
+A:hover {
+    text-decoration:    underline;
+    color:  #ff0000;
+}
+
+SELECT{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+TEXTAREA{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.TextField{
+    font-family: Verdana, Helvetica;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+SMALL   {
+    font-size:  8px;
+}
+
+BIG {
+    font-size:  14px;
+}
+
+BLOCKQUOTE, PRE {
+    font-family:    Lucida Console, monospace;
+}
+
+
+UL LI   {
+    list-style-type:    square ;
+}
+
+UL LI LI    {
+    list-style-type:    disc;
+}
+
+UL LI LI LI {
+    list-style-type:    circle;
+}
+
+OL LI   {
+    list-style-type:    decimal;
+}
+
+OL OL LI    {
+    list-style-type:    lower-alpha;
+}
+
+OL OL OL LI {
+    list-style-type:    lower-roman;
+}
+
+HR {
+    color: dimgrey;
+    height:1pt;
+    text-align:left
+}
+
+/* Styles related to the PHP Layers Menu System begin here */
+
+/* START Main Menu*/
+.mainMenu_treemenudiv	{
+	display: block;
+	white-space: nowrap;
+}
+
+.mainMenu_phplmnormal	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+a.mainMenu_phplm:link	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a.mainMenu_phplm:visited	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+a.mainMenu_phplm:hover	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #841212;
+	background-color: #DB836F;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.mainMenu_phplm:active	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.mainMenu_phplmbodytable	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	background-color: #DB836F;
+}
+
+.mainMenu_ivorybodytable	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	background-color: #DB836F;
+}
+
+.mainMenu_darkbordertable	{
+	background-color: #DB836F;
+}
+
+.mainMenu_blackbordertable	{
+	background-color: #DB836F;
+}
+
+.mainMenu_greenbordertable	{
+	background-color: #DB836F;
+}
+
+.mainMenu_darkgreenbordertable	{
+	background-color: #DB836F;
+}
+
+.mainMenu_redbordertable	{
+	background-color: #DB836F;
+}
+
+.mainMenu_orangebordertable	{
+	background-color: #FFFFFF;
+}
+/* END Main Menu*/
+
+/* START Site Map*/
+.siteMap_treemenudiv	{
+	display: block;
+	white-space: nowrap;
+}
+
+.siteMap_phplmnormal	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #000000;
+}
+
+a.siteMap_phplm:link	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.siteMap_phplm:visited	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.siteMap_phplm:hover	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #841212;
+	text-decoration: none;
+}
+
+a.siteMap_phplm:active	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.siteMap_phplmbodytable	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+}
+
+.siteMap_ivorybodytable	{
+	font-family: Tahoma, Arial, Helvetica;
+	font-size:  13px;
+}
+
+.siteMap_darkbordertable	{
+}
+
+.siteMap_blackbordertable	{
+}
+
+.siteMap_greenbordertable	{
+}
+
+.siteMap_darkgreenbordertable	{
+}
+
+.siteMap_redbordertable	{
+}
+
+.siteMap_orangebordertable	{
+	background-color: #000000;
+}
+/* END Site Map*/
+
+/* START Navigator*/
+.navigatorNumber, 
+a.navigatorNumber:link, 
+a.navigatorNumber:visited,
+a.navigatorNumber:hover,
+a.navigatorNumber:active{
+	font-family: Tahoma, Arial, Helvetica;
+	color:#000000;
+	font-size:  12px;
+}
+
+.navigatorCurrent,
+a.navigatorCurrent:link, 
+a.navigatorCurrent:visited,
+a.navigatorCurrent:hover,
+a.navigatorCurrent:active{{
+	font-family: Tahoma, Arial, Helvetica;
+	font-weight:bold;
+	color:#000000;
+	font-size:  13px;
+}
+/* END Navigator*/

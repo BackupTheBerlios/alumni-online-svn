@@ -1,0 +1,67 @@
+<form name="siteSettings" method="post" action="index.php?tab={$controlVariables.siteSettings.tabId}"> 
+  <table cellSpacing="0" cellPadding="2" border="0"> 
+{if $controlVariables.siteSettings.titleError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.siteSettings.titleError}</td>
+    </tr>
+{/if}  
+    <tr> 
+      <td class="SubHead">Site Title:</td> 
+      <td><input name="siteTitle" type="text" value="{$controlVariables.siteSettings.title}" maxlength="256" id="siteTitle" class="NormalTextBox" style="width:300px;" /></td> 
+    </tr> 
+{if $controlVariables.siteSettings.emailError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.siteSettings.emailError}</td>
+    </tr>
+{/if} 
+    <tr> 
+      <td class="SubHead">Site Email:</td> 
+      <td><input name="siteEmail" type="text" value="{$controlVariables.siteSettings.email}" maxlength="256" id="siteEmail" class="NormalTextBox" style="width:300px;" /></td> 
+    </tr> 
+    <tr> 
+      <td colspan="2">&nbsp;</td> 
+    </tr>
+{if $controlVariables.siteSettings.skinError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.siteSettings.skinError}</td>
+    </tr>
+{/if} 	
+    <tr> 
+      <td class="SubHead">Site Skin:</td> 
+      <td valign="top"><select name="siteSkin" id="siteSkin" class="NormalTextBox" style="width:300px;">
+	  {foreach key=key item=item  from=$controlVariables.siteSettings.skinList}		  		   
+          <option value='{$item}'{if $controlVariables.siteSettings.theme==$item} selected{/if}>{$item}</option>            
+	{/foreach}
+	</select></td> 
+    </tr>
+{if $controlVariables.siteSettings.containerError!=""}
+    <tr class='Error'>
+      <td colspan='2'>{$controlVariables.siteSettings.containerError}</td>
+    </tr>
+{/if}	
+    <tr> 
+      <td class="SubHead">Site Container:</td> 
+      <td valign="top"><select name="siteContainer" id="siteContainer" class="NormalTextBox" style="width:300px;">
+	  {foreach key=key item=item  from=$controlVariables.siteSettings.containerList}		  		   
+          <option value='{$item}'{if $controlVariables.siteSettings.container==$item} selected{/if}>{$item}</option>            
+	{/foreach}	
+	</select> </td> 
+    </tr> 
+    <tr> 
+      <td colspan="2">&nbsp;</td> 
+    </tr> 
+    <TR> 
+      <TD class="SubHead">Display Version in Page Title?</TD> 
+      <TD><span class="NormalTextBox"> 
+        <input id="showVersion" type="checkbox" name="showVersion" {if $controlVariables.siteSettings.showVersion}checked="checked"{/if} /> 
+        </span></TD> 
+    </TR> 
+    <TR> 
+      <TD colspan="2">&nbsp;</TD> 
+    </TR> 
+    <tr> 
+      <td colSpan="2"> <input type="submit" name="Submit" value="Update" class='button'></td> 
+    </tr> 
+  </table> 
+  <input name='event' type='hidden' id='event' value='siteSettings'>
+</form>

@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<schema version="0.2">
+	<table name="ao_configuration">
+		<desc>Holds common application settings</desc>
+		<field name="config_key" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="config_value" type="X"></field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial application settings</descr>
+		<query>INSERT INTO ao_configuration VALUES ('email', '{{$parameters.siteEmail}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('showVersion', '1')</query>
+		<query>INSERT INTO ao_configuration VALUES ('emailFrom', '{{$parameters.mailerFrom}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('sitePath', '')</query>
+		<query>INSERT INTO ao_configuration VALUES ('theme', '{{$parameters.siteSkin}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('title', '{{$parameters.siteTitle}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('container', '{{$parameters.siteContainer}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('emailMailer', '{{$parameters.mailer}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('emailPassword', '{{$parameters.mailerPassword}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('emailUsername', '{{$parameters.mailerUser}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('trackerUsername', '{{$parameters.wsUser}}')</query>
+		<query>INSERT INTO ao_configuration VALUES ('trackerPassword', '{{$parameters.wsPassword}}')</query>
+	</sql>
+	
+	<table name="ao_events">
+		<desc>Holds system event list</desc>
+		<field name="event_name" type="C" size="20">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="description" type="X"></field>
+	</table>	
+	<sql>
+		<descr>Queries to insert initial system events</descr>
+		<query>INSERT INTO ao_events VALUES ('login_succeed', 'Occures When User logs into the system')</query>
+		<query>INSERT INTO ao_events VALUES ('login_fail', 'Occures after a bad login')</query>
+		<query>INSERT INTO ao_events VALUES ('user_registration', 'Occures when a visitor registers itself')</query>
+		<query>INSERT INTO ao_events VALUES ('user_new', 'Occures when a new user created by system administrator')</query>
+		<query>INSERT INTO ao_events VALUES ('user_deactivate', 'Occures when a user deactivated by system administrator')</query>
+		<query>INSERT INTO ao_events VALUES ('user_activate', 'Occures when a user activated by system administrator')</query>
+		<query>INSERT INTO ao_events VALUES ('exception', 'Occures on an unhandled system exception')</query>
+	</sql>
+	
+	<table name="ao_events_adapters">
+		<desc>Holds system event list</desc>
+		<field name="events_adapters_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="description" type="X">
+			<NOTNULL/>
+		</field>
+		<field name="control_src" type="X">
+			<NOTNULL/>
+		</field>
+	</table>
+
+	<table name="ao_events_listeners">
+		<desc>Holds system event listener list</desc>
+		<field name="events_listener_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="event_name" type="C" size="20">
+			<NOTNULL/>
+		</field>
+		<field name="events_adapters_id" type="I">
+			<NOTNULL/>
+		</field>
+	</table>	
+	
+	<table name="ao_metatags">
+		<desc>Holds html meta tags for system</desc>
+		<field name="tag_name" type="C" size="20">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="tag_value" type="X">
+			<NOTNULL/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial metatags</descr>
+		<query>INSERT INTO ao_metatags VALUES ('product', 'Alumni-Online')</query>
+		<query>INSERT INTO ao_metatags VALUES ('product_version', '3.0.0.1')</query>
+		<query>INSERT INTO ao_metatags VALUES ('RESOURCE-TYPE', 'DOCUMENT')</query>
+		<query>INSERT INTO ao_metatags VALUES ('product_creator', 'Fatih BOY [fatih@enterprisecoding.com]')</query>
+		<query>INSERT INTO ao_metatags VALUES ('DISTRIBUTION', 'GLOBAL')</query>
+		<query>INSERT INTO ao_metatags VALUES ('AUTHOR', 'Fatih Boy')</query>
+		<query>INSERT INTO ao_metatags VALUES ('RATING', 'SOFTWARE')</query>
+		<query>INSERT INTO ao_metatags VALUES ('ROBOTS', 'NOINDEX')</query>
+	</sql>
+	
+	<table name="ao_module_controls">
+		<desc>Holds list of controls for module definitions</desc>
+		<field name="module_controls_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="module_definition_id" type="I">
+			<NOTNULL/>
+		</field>
+		<field name="control_key" type="C" size="30"></field>
+		<field name="control_title" type="C" size="100"></field>
+		<field name="control_src" type="X">
+			<NOTNULL/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial system controls</descr>
+		<query>INSERT INTO ao_module_controls VALUES (1, 1, NULL, NULL, 'html/html.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (2, 1, 'Edit', 'Edit Content', 'html/htmlEdit.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (3, -1, NULL, NULL, 'login/login.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (4, -2, NULL, NULL, 'login/logout.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (5, -3, NULL, NULL, 'admin/modules/addModule.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (6, -4, NULL, NULL, 'admin/tabs/addTab.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (7, -6, NULL, NULL, 'admin/tabs/deleteTab.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (8, -7, NULL, NULL, 'myInfo.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (9, -5, NULL, NULL, 'admin/tabs/editTab.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (10, -8, NULL, NULL, 'admin/modules/moveModule.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (11, -9, NULL, NULL, 'admin/modules/deleteModule.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (12, -10, NULL, NULL, 'admin/modules/editModule.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (13, 2, NULL, NULL, 'siteMap.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (14, -11, NULL, NULL, 'admin/siteSettings.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (15, -12, NULL, NULL, 'admin/users/users.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (16, -12, 'addUser', 'Add User', 'admin/users/addUser.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (22, -13, 'message2Groups', 'Send Message', 'admin/userGroups/sendMessage.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (18, -12, 'message2Users', 'Send Message', 'admin/users/sendMessage.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (19, -13, NULL, NULL, 'admin/userGroups/groups.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (20, -13, 'addGroup', 'Add Group', 'admin/userGroups/addGroup.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (23, -14, NULL, NULL, 'admin/users/deleteUser.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (24, -15, NULL, NULL, 'admin/userGroups/deleteGroup.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (25, -16, NULL, NULL, 'admin/users/userInfo.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (26, -17, NULL, NULL, 'admin/exceptionViewer/exceptionViewer.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (27, 3, NULL, NULL, 'poll/poll.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (28, 4, NULL, NULL, 'status/msn/msnStatus.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (29, 5, NULL, NULL, 'status/icq/icqStatus.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (30, 6, NULL, NULL, 'status/yahoo/yahooStatus.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (31, 7, NULL, NULL, 'feedBack.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (32, 8, NULL, NULL, 'rss/rssFeed.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (35, 5, 'editIcqStatus', 'Edit ICQ Status', 'status/icq/icqStatusEdit.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (34, 8, 'editRSS', 'Edit RSS Feed', 'rss/rssEdit.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (36, 4, 'editMsnStatus', 'Edit MSN Status', 'status/msn/msnStatusEdit.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (37, 6, 'editYahooStatus', 'Edit Yahoo! Status', 'status/yahoo/yahooStatusEdit.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (38, -18, NULL, NULL, 'admin/users/sendMessage2User.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (40, 3, 'editPollQuestion', 'Edit Question', 'poll/pollEditQuestion.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (41, 3, 'editPollAnswers', 'Edit Answers', 'poll/pollEditAnswers.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (42, 3, 'addPollAnswer', 'Add Answer', 'poll/pollAddAnswer.php')</query>
+		<query>INSERT INTO ao_module_controls VALUES (43, -19, NULL, NULL, 'login/forgetPassword.php')</query>
+	</sql>
+	
+	<table name="ao_module_definitons">
+		<desc>Holds list of system module definitions</desc>
+		<field name="module_definition_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="friendly_name" type="C" size="30">
+			<DEFAULT value=""/>
+		</field>
+		<field name="definition" type="X">
+			<NOTNULL/>
+			<DEFAULT value=""/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial system controls</descr>
+		<query>INSERT INTO ao_module_definitons VALUES (-1, 'Login Frame', 'Displays login form')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-2, 'Logout', 'Logs user out')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-3, 'Add New Module', 'Adds new module')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-4, 'Add New Tab', 'Adds new tab')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-5, 'Edit Tab', 'Edits active tab')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-6, 'Delete Tab', 'Deletes active tab')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-7, 'My Information', 'Displays current user''s personal information')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-8, 'Move Module', 'Moves module to given pane')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-9, 'Delete Module', 'Delete given module')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-10, 'Edit Module', 'Edits given module')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-11, 'Site Settings', 'Edits web site settings')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-12, 'User Settings', 'Displays user list')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-13, 'User Group Settings', 'Displays user group list')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-14, 'Delete User', 'Deletes given user')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-15, 'Delete Group', 'Deletes given user group')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-16, 'Exception Viewer', 'Displays Alumni-Online exception logs')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-18, 'Send Message', 'Sends message to user')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (-19, 'Forget Password', 'Generates new password for given user and sends it via e-mail')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (1, 'Html Content', 'Displays Html contents')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (2, 'Site Map', 'Displays map of the web site in a tree')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (3, 'Poll Module', 'Displays poll')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (4, 'Msn Status', 'Displays msn status of given user')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (5, 'Icq Status', 'Displays icq status of given user')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (6, 'Yahoo! Status', 'Displays yahoo status of given user')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (7, 'Feed Back', 'Allow visitors to send feedbacks')</query>
+		<query>INSERT INTO ao_module_definitons VALUES (8, 'Rss Feed', 'Parses given rss feed')</query>
+	</sql>
+	
+	<table name="ao_module_settings">
+		<desc>Holds settings for system modules</desc>
+		<field name="module_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="setting_key" type="C" size="100">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="setting_value" type="X">
+			<NOTNULL/>
+			<DEFAULT value=""/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial module settings</descr>
+		<query>INSERT INTO ao_module_settings VALUES (22, 'html_content', '&lt;p&gt;Welcome to Alumni-Online v3.0.0.1&lt;/p&gt;\r\n&lt;p&gt;Here is the list of changes on AO v3.0.0.1 :&lt;/p&gt;\r\n&lt;ul&gt;\r\n  &lt;li&gt;Some bugfixes&lt;/li&gt;\r\n  &lt;li&gt;Each module could have seperate containers&lt;/li&gt;\r\n  &lt;li&gt;Automatic error reporting has been cancelled&lt;/li&gt;\r\n  &lt;li&gt;&lt;b&gt;Forget password&lt;/b&gt; option added to login form&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;List of changes on AO v3.0.0.0 :\r\n&lt;ul&gt;\r\n  &lt;li&gt; Alumni-Online completely re-written! &lt;/li&gt;\r\n  &lt;li&gt;With new template system, it''s so easy to design templates  with no php knowledge,&lt;/li&gt;\r\n  &lt;li&gt;With the help of container system, system administrators can assign seperate container&lt;br&gt;\r\n  templates to each module,&lt;/li&gt;\r\n&lt;li&gt;User management has been improved.System administrators can assign user rights for&lt;br&gt;each tab, as well as for each module within tabs!&lt;/li&gt;\r\n  &lt;li&gt;Error logs could save in xml format. This will help system administrators for&lt;br&gt; tracking system bugs, also\r\nit is used by &lt;a href="http://tracker.enterprisecoding.com"&gt;enterprisecoding.com bug tracker system&lt;/a&gt;&lt;/li&gt;\r\n&lt;li&gt;New module system, it is so easy to manage Alumni-Online. It also allows&lt;br&gt; contributers to extend Alumni-Online easily&lt;/li&gt;\r\n&lt;li&gt;ADOdb library used for database layer, so has a wide range of support for db&lt;/li&gt;\r\n&lt;/ul&gt;\r\n&lt;p&gt;Followings are the open-source projects used in Alumni-Online :\r\n&lt;ul&gt;\r\n  &lt;li&gt;&lt;strong&gt;adodb&lt;/strong&gt;, for database connections&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;nuSoap&lt;/strong&gt;, for soap protocol support&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;Smarty&lt;/strong&gt;, for template system&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;PhpLayersMenu&lt;/strong&gt;, for links menu&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;PhpMailer&lt;/strong&gt;, Brent R. Matzelle, for sending e-mails&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;CYahooStatus&lt;/strong&gt;, Setec Astronomy, for yahoo status check class&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;ICQStatus&lt;/strong&gt;, for icq status check class&lt;/li&gt;\r\n  &lt;li&gt;&lt;strong&gt;class.RSS&lt;/strong&gt;, Joseph Harris, for rss feed class&lt;/li&gt;\r\n&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;Also would like to thank &lt;strong&gt;DotNetNuke&lt;/strong&gt; staff for their web management concept&lt;/p&gt;')</query>
+		<query>INSERT INTO ao_module_settings VALUES (24, 'html_content', '&lt;img src="images/alumni-online.gif" alt="Powered by Alumni-Online"&gt;&lt;br&gt;&lt;br&gt;&lt;img src="images/adodb.gif"&gt;&lt;br&gt;&lt;br&gt;&lt;img src="images/smarty_icon.gif"&gt;')</query>
+	</sql>
+	
+	<table name="ao_module_special">
+		<desc>Holds application special modules</desc>
+		<field name="module_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="query_string" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial special modules</descr>
+		<query>INSERT INTO ao_module_special VALUES (-1, 'login')</query>
+		<query>INSERT INTO ao_module_special VALUES (-2, 'logout')</query>
+		<query>INSERT INTO ao_module_special VALUES (-3, 'AddModule')</query>
+		<query>INSERT INTO ao_module_special VALUES (-4, 'AddTab')</query>
+		<query>INSERT INTO ao_module_special VALUES (-5, 'EditTab')</query>
+		<query>INSERT INTO ao_module_special VALUES (-6, 'DeleteTab')</query>
+		<query>INSERT INTO ao_module_special VALUES (-7, 'MyInfo')</query>
+		<query>INSERT INTO ao_module_special VALUES (-8, 'MoveModule')</query>
+		<query>INSERT INTO ao_module_special VALUES (-9, 'DeleteModule')</query>
+		<query>INSERT INTO ao_module_special VALUES (-10, 'EditModule')</query>
+		<query>INSERT INTO ao_module_special VALUES (-11, 'DeleteUser')</query>
+		<query>INSERT INTO ao_module_special VALUES (-12, 'DeleteGroup')</query>
+		<query>INSERT INTO ao_module_special VALUES (-13, 'UserInfo')</query>
+		<query>INSERT INTO ao_module_special VALUES (-14, 'SendMessage')</query>
+		<query>INSERT INTO ao_module_special VALUES (-15, 'ForgetPassword')</query>
+	</sql>
+	
+	<table name="ao_modules">
+		<desc>Holds list of application modules</desc>
+		<field name="module_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="tab_id" type="I">
+			<NOTNULL/>
+		</field>
+		<field name="module_definition_id" type="I">
+			<NOTNULL/>
+		</field>
+		<field name="tab_id" type="I">
+			<NOTNULL/>
+		</field>
+		<field name="module_order" type="I4">
+			<NOTNULL/>
+			<DEFAULT value="0"/>
+		</field>
+		<field name="authorized_roles" type="C" size="50">
+			<NOTNULL/>
+			<DEFAULT value=";1;"/>
+		</field>
+		<field name="administrator_roles" type="C" size="50">
+			<NOTNULL/>
+			<DEFAULT value=";2;"/>
+		</field>
+		<field name="pane_name" type="C" size="20">
+			<NOTNULL/>
+		</field>
+		<field name="module_title" type="X">
+			<NOTNULL/>
+		</field>
+		<field name="module_icon" type="C" size="100"></field>
+		<field name="alignment" type="C" size="20">
+			<DEFAULT value=""/>
+		</field>
+		<field name="can_show_title" type="L">
+			<DEFAULT value="1"/>
+		</field>
+		<field name="display_all_tabs" type="L">
+			<DEFAULT value="0"/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial modules</descr>
+		<query>INSERT INTO ao_modules VALUES (1, -1, -1, 0, ';1;', ';2;', 'contentpane', 'Login Form', NULL, 'left', 0, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (2, -2, -2, 0, ';1;', ';2;', 'contentpane', 'Logout Form', NULL, 'left', 0, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (5, -3, -3, 0, ';2;', ';2;', 'contentpane', 'Add New Module', 'addModule.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (6, -4, -4, 0, ';2;', ';2;', 'contentpane', 'Add New Tab', 'addTab.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (7, -5, -5, 0, ';1;', ';2;', 'contentpane', 'Edit Tab', 'editTab.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (9, -7, -7, 0, ';1;', ';2;', 'contentpane', 'My Information', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (8, -6, -6, 0, ';1;', ';2;', 'contentpane', 'Delete Tab', 'deleteTab.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (15, -8, -8, 0, ';2;', ';2;', 'contentpane', 'Move Module', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (19, -9, -9, 0, ';2;', ';2;', 'contentpane', 'Delete Module', 'deleteModule.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (20, -10, -10, 0, ';2;', ';2;', 'contentpane', 'Edit Module', 'editModule.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (21, 1, 2, 0, ';1;', ';2;', 'leftPane', 'Site Map', NULL, '', 1, 1)</query>
+		<query>INSERT INTO ao_modules VALUES (22, 1, 1, 0, ';1;', ';2;', 'contentPane', 'Welcome to Alumni-Online v3.0.0.1', NULL, '', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (24, 1, 1, 0, ';1;', ';2;', 'leftPane', 'Powered By', NULL, 'center', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (25, 11, -11, 0, ';2;', ';2;', 'contentpane', 'Site Settings', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (26, 10, -12, 0, ';2;', ';2;', 'contentpane', 'User List', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (27, 9, -13, 0, ';2;', ';2;', 'contentpane', 'User Group List', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (28, -11, -14, 0, ';2;', ';2;', 'contentpane', 'Delete User', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (29, -12, -15, 0, ';2;', ';2;', 'contentpane', 'Delete User Group', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (30, -13, -16, 0, ';2;', ';2;', 'contentpane', 'User Information', 'editUser.gif', 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (31, 12, -17, 0, ';2;', ';2;', 'contentpane', 'Exception Viewer', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (38, -14, -18, 0, ';2;', ';2;', 'contentpane', 'Send Message', NULL, 'left', 1, 0)</query>
+		<query>INSERT INTO ao_modules VALUES (39, -15, -19, 0, ';1;', ';2;', 'contentpane', 'Forget Password', NULL, 'left', 1, 0)</query>
+	</sql>
+	
+	<table name="ao_poll_answers">
+		<desc>Holds answers for polls</desc>
+		<field name="poll_answers_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="poll_module_id" type="I">
+			<NOTNULL/>
+		</field>
+		<field name="value" type="C" size="255">
+			<NOTNULL/>
+		</field>
+		<field name="score" type="I4">
+			<DEFAULT value="0"/>
+		</field>
+	</table>
+	
+	<table name="ao_poll_questions">
+		<desc>Holds questions for polls</desc>
+		<field name="poll_module_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="question" type="C" size="255">
+			<NOTNULL/>
+		</field>
+	</table>
+	
+	<table name="ao_tabs">
+		<desc>Holds list of application tabs</desc>
+		<field name="tab_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="tab_order" type="I4">
+			<NOTNULL/>
+		</field>
+		<field name="tab_name" type="C" size="50">
+			<NOTNULL/>
+			<DEFAULT value="New Tab"/>
+		</field>
+		<field name="authorized_roles" type="C" size="50">
+			<NOTNULL/>
+			<DEFAULT value=";1;"/>
+		</field>
+		<field name="administrator_roles" type="C" size="50">
+			<NOTNULL/>
+			<DEFAULT value=";2;"/>
+		</field>
+		<field name="parent_id" type="I">
+			<NOTNULL/>
+			<DEFAULT value="0"/>
+		</field>
+		<field name="is_visible" type="L">
+			<NOTNULL/>
+			<DEFAULT value="1"/>
+		</field>
+		<field name="title" type="C" size="100">
+			<NOTNULL/>
+			<DEFAULT value="Alumni-Online"/>
+		</field>
+		<field name="description" type="C" size="100"></field>
+		<field name="keywords" type="C" size="100"></field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial tabs</descr>
+		<query>INSERT INTO ao_tabs VALUES (-1, 0, 'Login/Logout', ';1;', ';2;', 0, 1, '', NULL, NULL)</query>
+		<query>INSERT INTO ao_tabs VALUES (1, 0, 'Home', ';1;', ';2;', 0, 1, 'Home Page', 'Your web site description', 'alumni-online, fatih boy, 2.2.0.0, alumni')</query>
+		<query>INSERT INTO ao_tabs VALUES (6, 100001, 'Administration', ';2;', ';-1;', 0, 1, 'System Administration', NULL, NULL)</query>
+		<query>INSERT INTO ao_tabs VALUES (9, 100011, 'User Groups', ';2;', ';-1;', 6, 1, 'User Group Administration', NULL, NULL)</query>
+		<query>INSERT INTO ao_tabs VALUES (10, 100031, 'Users', ';2;', ';-1;', 6, 1, 'User Administration', NULL, NULL)</query>
+		<query>INSERT INTO ao_tabs VALUES (11, 100005, 'Site Settings', ';2;', ';-1;', 6, 1, 'Site Administration', NULL, NULL)</query>
+		<query>INSERT INTO ao_tabs VALUES (12, 100041, 'Exception Viewer', ';2;', ';-1;', 6, 1, 'Exception Viewer', NULL, NULL)</query>
+	</sql>
+	
+	<table name="ao_templates">
+		<desc>Holds system templates</desc>
+		<field name="type" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="name" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="content" type="X">
+			<NOTNULL/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial templates</descr>
+		<query>INSERT INTO ao_templates VALUES ('mail', 'forgetPasswordSubject', 'Password Reminder from {siteName}')</query>
+		<query>INSERT INTO ao_templates VALUES ('mail', 'forgetPasswordBody', 'You''ve request password remind. Here is detailed information\r\n\r\nUsername : {$username}\r\nPassword : {$password}')</query>
+	</sql>
+	
+	<table name="ao_user_groups">
+		<desc>Holds system user groups</desc>
+		<field name="user_group_id" type="I">
+			<KEY/>
+			<NOTNULL/>
+			<AUTOINCREMENT/>
+		</field>
+		<field name="name" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial user groups</descr>
+		<query>INSERT INTO ao_user_groups VALUES (1, 'Everyone')</query>
+		<query>INSERT INTO ao_user_groups VALUES (2, 'Administrator')</query>
+		<query>INSERT INTO ao_user_groups VALUES (3, 'Registered Users')</query>		
+	</sql>
+	
+	<table name="ao_users">
+		<desc>Holds system users</desc>
+		<field name="username" type="C" size="50">
+			<KEY/>
+			<NOTNULL/>
+		</field>
+		<field name="password" type="C" size="50">
+			<NOTNULL/>
+		</field>
+		<field name="name" type="C" size="50">
+			<NOTNULL/>
+		</field>
+		<field name="surname" type="C" size="70">
+			<NOTNULL/>
+		</field>
+		<field name="user_group_id" type="I">
+			<NOTNULL/>
+			<DEFAULT value="2"/>
+		</field>
+		<field name="email" type="C" size="50">
+			<NOTNULL/>
+		</field>
+		<field name="icq" type="C" size="9"></field>
+		<field name="msn" type="C" size="50"></field>
+		<field name="yahoo" type="C" size="50"></field>
+		<field name="image" type="C" size="50"></field>
+		<field name="is_active" type="L">
+			<NOTNULL/>
+			<DEFAULT value="1"/>
+		</field>
+	</table>
+	<sql>
+		<descr>Queries to insert initial users</descr>
+		<query>INSERT INTO ao_users VALUES ('{{$parameters.adminUser}}', '{{$adminPassword}}', 'Administator', 'User', 2, '{{$parameters.adminUserEmail}}', NULL, NULL, NULL, '097', 1)</query>		
+	</sql>
+
+</schema>
